@@ -134,6 +134,6 @@
   <g transform='matrix(1.0, -0.0, -0.0, 1.0, 0.0, -50.0)'>
     <ellipse fill='red' cx='0' cy='0' rx='20.0' ry='20.0'/>
   </g>
-  <rect fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' x='-30.0' y='-80.0' width='60.0' height='160.0'/>
+  <rect fill='black' x='-30.0' y='-80.0' width='60.0' height='160.0'/>
 </g>
 </svg>
