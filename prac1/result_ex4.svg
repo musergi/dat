@@ -1,0 +1,1152 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width='600' height='600' viewBox='-300 -300 600 600' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'>
+<g pointer-events='none'>
+  <rect vector-effect='non-scaling-stroke' fill='none' stroke='gray' stroke-width='2' x='-300' y='-300' width='600' height='600'/>
+  <line vector-effect='non-scaling-stroke' stroke='gray' stroke-width='2' x1='-300' y1='0' x2='300' y2='0'/>
+  <line vector-effect='non-scaling-stroke' stroke='gray' stroke-width='2' x1='0' y1='-300' x2='0' y2='300'/>
+  <line vector-effect='non-scaling-stroke' stroke='gray' stroke-width='1' x1='-300'  y1='20.0' x2='300' y2='20.0'/>
+  <line vector-effect='non-scaling-stroke' stroke='gray' stroke-width='1' x1='-300'  y1='-20.0' x2='300' y2='-20.0'/>
+  <text fill='gray' text-anchor='end' transform='translate(0,20.0) scale(0.7,0.7)' x='0' y='0'>-1</text>
+  <text fill='gray' text-anchor='end' transform='translate(0,-20.0) scale(0.7,0.7)' x='0' y='0'>1</text>
+  <line vector-effect='non-scaling-stroke' stroke='gray' stroke-width='1' x1='-300'  y1='40.0' x2='300' y2='40.0'/>
+  <line vector-effect='non-scaling-stroke' stroke='gray' stroke-width='1' x1='-300'  y1='-40.0' x2='300' y2='-40.0'/>
+  <text fill='gray' text-anchor='end' transform='translate(0,40.0) scale(0.7,0.7)' x='0' y='0'>-2</text>
+  <text fill='gray' text-anchor='end' transform='translate(0,-40.0) scale(0.7,0.7)' x='0' y='0'>2</text>
+  <line vector-effect='non-scaling-stroke' stroke='gray' stroke-width='1' x1='-300'  y1='60.0' x2='300' y2='60.0'/>
+  <line vector-effect='non-scaling-stroke' stroke='gray' stroke-width='1' x1='-300'  y1='-60.0' x2='300' y2='-60.0'/>
+  <text fill='gray' text-anchor='end' transform='translate(0,60.0) scale(0.7,0.7)' x='0' y='0'>-3</text>
+  <text fill='gray' text-anchor='end' transform='translate(0,-60.0) scale(0.7,0.7)' x='0' y='0'>3</text>
+  <line vector-effect='non-scaling-stroke' stroke='gray' stroke-width='1' x1='-300'  y1='80.0' x2='300' y2='80.0'/>
+  <line vector-effect='non-scaling-stroke' stroke='gray' stroke-width='1' x1='-300'  y1='-80.0' x2='300' y2='-80.0'/>
+  <text fill='gray' text-anchor='end' transform='translate(0,80.0) scale(0.7,0.7)' x='0' y='0'>-4</text>
+  <text fill='gray' text-anchor='end' transform='translate(0,-80.0) scale(0.7,0.7)' x='0' y='0'>4</text>
+  <line vector-effect='non-scaling-stroke' stroke='gray' stroke-width='1' x1='-300'  y1='100.0' x2='300' y2='100.0'/>
+  <line vector-effect='non-scaling-stroke' stroke='gray' stroke-width='1' x1='-300'  y1='-100.0' x2='300' y2='-100.0'/>
+  <text fill='gray' text-anchor='end' transform='translate(0,100.0) scale(0.7,0.7)' x='0' y='0'>-5</text>
+  <text fill='gray' text-anchor='end' transform='translate(0,-100.0) scale(0.7,0.7)' x='0' y='0'>5</text>
+  <line vector-effect='non-scaling-stroke' stroke='gray' stroke-width='1' x1='-300'  y1='120.0' x2='300' y2='120.0'/>
+  <line vector-effect='non-scaling-stroke' stroke='gray' stroke-width='1' x1='-300'  y1='-120.0' x2='300' y2='-120.0'/>
+  <text fill='gray' text-anchor='end' transform='translate(0,120.0) scale(0.7,0.7)' x='0' y='0'>-6</text>
+  <text fill='gray' text-anchor='end' transform='translate(0,-120.0) scale(0.7,0.7)' x='0' y='0'>6</text>
+  <line vector-effect='non-scaling-stroke' stroke='gray' stroke-width='1' x1='-300'  y1='140.0' x2='300' y2='140.0'/>
+  <line vector-effect='non-scaling-stroke' stroke='gray' stroke-width='1' x1='-300'  y1='-140.0' x2='300' y2='-140.0'/>
+  <text fill='gray' text-anchor='end' transform='translate(0,140.0) scale(0.7,0.7)' x='0' y='0'>-7</text>
+  <text fill='gray' text-anchor='end' transform='translate(0,-140.0) scale(0.7,0.7)' x='0' y='0'>7</text>
+  <line vector-effect='non-scaling-stroke' stroke='gray' stroke-width='1' x1='-300'  y1='160.0' x2='300' y2='160.0'/>
+  <line vector-effect='non-scaling-stroke' stroke='gray' stroke-width='1' x1='-300'  y1='-160.0' x2='300' y2='-160.0'/>
+  <text fill='gray' text-anchor='end' transform='translate(0,160.0) scale(0.7,0.7)' x='0' y='0'>-8</text>
+  <text fill='gray' text-anchor='end' transform='translate(0,-160.0) scale(0.7,0.7)' x='0' y='0'>8</text>
+  <line vector-effect='non-scaling-stroke' stroke='gray' stroke-width='1' x1='-300'  y1='180.0' x2='300' y2='180.0'/>
+  <line vector-effect='non-scaling-stroke' stroke='gray' stroke-width='1' x1='-300'  y1='-180.0' x2='300' y2='-180.0'/>
+  <text fill='gray' text-anchor='end' transform='translate(0,180.0) scale(0.7,0.7)' x='0' y='0'>-9</text>
+  <text fill='gray' text-anchor='end' transform='translate(0,-180.0) scale(0.7,0.7)' x='0' y='0'>9</text>
+  <line vector-effect='non-scaling-stroke' stroke='gray' stroke-width='1' x1='-300'  y1='200.0' x2='300' y2='200.0'/>
+  <line vector-effect='non-scaling-stroke' stroke='gray' stroke-width='1' x1='-300'  y1='-200.0' x2='300' y2='-200.0'/>
+  <text fill='gray' text-anchor='end' transform='translate(0,200.0) scale(0.7,0.7)' x='0' y='0'>-10</text>
+  <text fill='gray' text-anchor='end' transform='translate(0,-200.0) scale(0.7,0.7)' x='0' y='0'>10</text>
+  <line vector-effect='non-scaling-stroke' stroke='gray' stroke-width='1' x1='-300'  y1='220.0' x2='300' y2='220.0'/>
+  <line vector-effect='non-scaling-stroke' stroke='gray' stroke-width='1' x1='-300'  y1='-220.0' x2='300' y2='-220.0'/>
+  <text fill='gray' text-anchor='end' transform='translate(0,220.0) scale(0.7,0.7)' x='0' y='0'>-11</text>
+  <text fill='gray' text-anchor='end' transform='translate(0,-220.0) scale(0.7,0.7)' x='0' y='0'>11</text>
+  <line vector-effect='non-scaling-stroke' stroke='gray' stroke-width='1' x1='-300'  y1='240.0' x2='300' y2='240.0'/>
+  <line vector-effect='non-scaling-stroke' stroke='gray' stroke-width='1' x1='-300'  y1='-240.0' x2='300' y2='-240.0'/>
+  <text fill='gray' text-anchor='end' transform='translate(0,240.0) scale(0.7,0.7)' x='0' y='0'>-12</text>
+  <text fill='gray' text-anchor='end' transform='translate(0,-240.0) scale(0.7,0.7)' x='0' y='0'>12</text>
+  <line vector-effect='non-scaling-stroke' stroke='gray' stroke-width='1' x1='-300'  y1='260.0' x2='300' y2='260.0'/>
+  <line vector-effect='non-scaling-stroke' stroke='gray' stroke-width='1' x1='-300'  y1='-260.0' x2='300' y2='-260.0'/>
+  <text fill='gray' text-anchor='end' transform='translate(0,260.0) scale(0.7,0.7)' x='0' y='0'>-13</text>
+  <text fill='gray' text-anchor='end' transform='translate(0,-260.0) scale(0.7,0.7)' x='0' y='0'>13</text>
+  <line vector-effect='non-scaling-stroke' stroke='gray' stroke-width='1' x1='-300'  y1='280.0' x2='300' y2='280.0'/>
+  <line vector-effect='non-scaling-stroke' stroke='gray' stroke-width='1' x1='-300'  y1='-280.0' x2='300' y2='-280.0'/>
+  <text fill='gray' text-anchor='end' transform='translate(0,280.0) scale(0.7,0.7)' x='0' y='0'>-14</text>
+  <text fill='gray' text-anchor='end' transform='translate(0,-280.0) scale(0.7,0.7)' x='0' y='0'>14</text>
+  <line vector-effect='non-scaling-stroke' stroke='gray' stroke-width='1' x1='-300'  y1='300.0' x2='300' y2='300.0'/>
+  <line vector-effect='non-scaling-stroke' stroke='gray' stroke-width='1' x1='-300'  y1='-300.0' x2='300' y2='-300.0'/>
+  <text fill='gray' text-anchor='end' transform='translate(0,300.0) scale(0.7,0.7)' x='0' y='0'>-15</text>
+  <text fill='gray' text-anchor='end' transform='translate(0,-300.0) scale(0.7,0.7)' x='0' y='0'>15</text>
+  <line vector-effect='non-scaling-stroke' stroke='gray' stroke-width='1' x1='20.0'  y1='-300' x2='20.0' y2='300'/>
+  <line vector-effect='non-scaling-stroke' stroke='gray' stroke-width='1' x1='-20.0'  y1='-300' x2='-20.0' y2='300'/>
+  <text fill='gray' text-anchor='middle' transform='translate(20.0,10.0) scale(0.7,0.7)' x='0' y='0'>1</text>
+  <text fill='gray' text-anchor='middle' transform='translate(-20.0,10.0) scale(0.7,0.7)' x='0' y='0'>-1</text>
+  <line vector-effect='non-scaling-stroke' stroke='gray' stroke-width='1' x1='40.0'  y1='-300' x2='40.0' y2='300'/>
+  <line vector-effect='non-scaling-stroke' stroke='gray' stroke-width='1' x1='-40.0'  y1='-300' x2='-40.0' y2='300'/>
+  <text fill='gray' text-anchor='middle' transform='translate(40.0,10.0) scale(0.7,0.7)' x='0' y='0'>2</text>
+  <text fill='gray' text-anchor='middle' transform='translate(-40.0,10.0) scale(0.7,0.7)' x='0' y='0'>-2</text>
+  <line vector-effect='non-scaling-stroke' stroke='gray' stroke-width='1' x1='60.0'  y1='-300' x2='60.0' y2='300'/>
+  <line vector-effect='non-scaling-stroke' stroke='gray' stroke-width='1' x1='-60.0'  y1='-300' x2='-60.0' y2='300'/>
+  <text fill='gray' text-anchor='middle' transform='translate(60.0,10.0) scale(0.7,0.7)' x='0' y='0'>3</text>
+  <text fill='gray' text-anchor='middle' transform='translate(-60.0,10.0) scale(0.7,0.7)' x='0' y='0'>-3</text>
+  <line vector-effect='non-scaling-stroke' stroke='gray' stroke-width='1' x1='80.0'  y1='-300' x2='80.0' y2='300'/>
+  <line vector-effect='non-scaling-stroke' stroke='gray' stroke-width='1' x1='-80.0'  y1='-300' x2='-80.0' y2='300'/>
+  <text fill='gray' text-anchor='middle' transform='translate(80.0,10.0) scale(0.7,0.7)' x='0' y='0'>4</text>
+  <text fill='gray' text-anchor='middle' transform='translate(-80.0,10.0) scale(0.7,0.7)' x='0' y='0'>-4</text>
+  <line vector-effect='non-scaling-stroke' stroke='gray' stroke-width='1' x1='100.0'  y1='-300' x2='100.0' y2='300'/>
+  <line vector-effect='non-scaling-stroke' stroke='gray' stroke-width='1' x1='-100.0'  y1='-300' x2='-100.0' y2='300'/>
+  <text fill='gray' text-anchor='middle' transform='translate(100.0,10.0) scale(0.7,0.7)' x='0' y='0'>5</text>
+  <text fill='gray' text-anchor='middle' transform='translate(-100.0,10.0) scale(0.7,0.7)' x='0' y='0'>-5</text>
+  <line vector-effect='non-scaling-stroke' stroke='gray' stroke-width='1' x1='120.0'  y1='-300' x2='120.0' y2='300'/>
+  <line vector-effect='non-scaling-stroke' stroke='gray' stroke-width='1' x1='-120.0'  y1='-300' x2='-120.0' y2='300'/>
+  <text fill='gray' text-anchor='middle' transform='translate(120.0,10.0) scale(0.7,0.7)' x='0' y='0'>6</text>
+  <text fill='gray' text-anchor='middle' transform='translate(-120.0,10.0) scale(0.7,0.7)' x='0' y='0'>-6</text>
+  <line vector-effect='non-scaling-stroke' stroke='gray' stroke-width='1' x1='140.0'  y1='-300' x2='140.0' y2='300'/>
+  <line vector-effect='non-scaling-stroke' stroke='gray' stroke-width='1' x1='-140.0'  y1='-300' x2='-140.0' y2='300'/>
+  <text fill='gray' text-anchor='middle' transform='translate(140.0,10.0) scale(0.7,0.7)' x='0' y='0'>7</text>
+  <text fill='gray' text-anchor='middle' transform='translate(-140.0,10.0) scale(0.7,0.7)' x='0' y='0'>-7</text>
+  <line vector-effect='non-scaling-stroke' stroke='gray' stroke-width='1' x1='160.0'  y1='-300' x2='160.0' y2='300'/>
+  <line vector-effect='non-scaling-stroke' stroke='gray' stroke-width='1' x1='-160.0'  y1='-300' x2='-160.0' y2='300'/>
+  <text fill='gray' text-anchor='middle' transform='translate(160.0,10.0) scale(0.7,0.7)' x='0' y='0'>8</text>
+  <text fill='gray' text-anchor='middle' transform='translate(-160.0,10.0) scale(0.7,0.7)' x='0' y='0'>-8</text>
+  <line vector-effect='non-scaling-stroke' stroke='gray' stroke-width='1' x1='180.0'  y1='-300' x2='180.0' y2='300'/>
+  <line vector-effect='non-scaling-stroke' stroke='gray' stroke-width='1' x1='-180.0'  y1='-300' x2='-180.0' y2='300'/>
+  <text fill='gray' text-anchor='middle' transform='translate(180.0,10.0) scale(0.7,0.7)' x='0' y='0'>9</text>
+  <text fill='gray' text-anchor='middle' transform='translate(-180.0,10.0) scale(0.7,0.7)' x='0' y='0'>-9</text>
+  <line vector-effect='non-scaling-stroke' stroke='gray' stroke-width='1' x1='200.0'  y1='-300' x2='200.0' y2='300'/>
+  <line vector-effect='non-scaling-stroke' stroke='gray' stroke-width='1' x1='-200.0'  y1='-300' x2='-200.0' y2='300'/>
+  <text fill='gray' text-anchor='middle' transform='translate(200.0,10.0) scale(0.7,0.7)' x='0' y='0'>10</text>
+  <text fill='gray' text-anchor='middle' transform='translate(-200.0,10.0) scale(0.7,0.7)' x='0' y='0'>-10</text>
+  <line vector-effect='non-scaling-stroke' stroke='gray' stroke-width='1' x1='220.0'  y1='-300' x2='220.0' y2='300'/>
+  <line vector-effect='non-scaling-stroke' stroke='gray' stroke-width='1' x1='-220.0'  y1='-300' x2='-220.0' y2='300'/>
+  <text fill='gray' text-anchor='middle' transform='translate(220.0,10.0) scale(0.7,0.7)' x='0' y='0'>11</text>
+  <text fill='gray' text-anchor='middle' transform='translate(-220.0,10.0) scale(0.7,0.7)' x='0' y='0'>-11</text>
+  <line vector-effect='non-scaling-stroke' stroke='gray' stroke-width='1' x1='240.0'  y1='-300' x2='240.0' y2='300'/>
+  <line vector-effect='non-scaling-stroke' stroke='gray' stroke-width='1' x1='-240.0'  y1='-300' x2='-240.0' y2='300'/>
+  <text fill='gray' text-anchor='middle' transform='translate(240.0,10.0) scale(0.7,0.7)' x='0' y='0'>12</text>
+  <text fill='gray' text-anchor='middle' transform='translate(-240.0,10.0) scale(0.7,0.7)' x='0' y='0'>-12</text>
+  <line vector-effect='non-scaling-stroke' stroke='gray' stroke-width='1' x1='260.0'  y1='-300' x2='260.0' y2='300'/>
+  <line vector-effect='non-scaling-stroke' stroke='gray' stroke-width='1' x1='-260.0'  y1='-300' x2='-260.0' y2='300'/>
+  <text fill='gray' text-anchor='middle' transform='translate(260.0,10.0) scale(0.7,0.7)' x='0' y='0'>13</text>
+  <text fill='gray' text-anchor='middle' transform='translate(-260.0,10.0) scale(0.7,0.7)' x='0' y='0'>-13</text>
+  <line vector-effect='non-scaling-stroke' stroke='gray' stroke-width='1' x1='280.0'  y1='-300' x2='280.0' y2='300'/>
+  <line vector-effect='non-scaling-stroke' stroke='gray' stroke-width='1' x1='-280.0'  y1='-300' x2='-280.0' y2='300'/>
+  <text fill='gray' text-anchor='middle' transform='translate(280.0,10.0) scale(0.7,0.7)' x='0' y='0'>14</text>
+  <text fill='gray' text-anchor='middle' transform='translate(-280.0,10.0) scale(0.7,0.7)' x='0' y='0'>-14</text>
+  <line vector-effect='non-scaling-stroke' stroke='gray' stroke-width='1' x1='300.0'  y1='-300' x2='300.0' y2='300'/>
+  <line vector-effect='non-scaling-stroke' stroke='gray' stroke-width='1' x1='-300.0'  y1='-300' x2='-300.0' y2='300'/>
+  <text fill='gray' text-anchor='middle' transform='translate(300.0,10.0) scale(0.7,0.7)' x='0' y='0'>15</text>
+  <text fill='gray' text-anchor='middle' transform='translate(-300.0,10.0) scale(0.7,0.7)' x='0' y='0'>-15</text>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M0.0 -0.0 L2.4492935982947065e-15 -40.0'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M2.4492935982947065e-15 -40.0 L10.352761804100831 -78.63703305156272'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M10.352761804100831 -78.63703305156272 L30.35276180410083 -113.27804920294028'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M30.35276180410083 -113.27804920294028 L58.637033051562724 -141.56232045040218'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M58.637033051562724 -141.56232045040218 L93.27804920294027 -161.56232045040218'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M93.27804920294027 -161.56232045040218 L131.91508225450298 -171.91508225450303'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M131.91508225450298 -171.91508225450303 L171.91508225450298 -171.91508225450303'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M171.91508225450298 -171.91508225450303 L210.55211530606573 -161.56232045040218'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 210.55211530606573, -161.56232045040218)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 210.55211530606573, -161.56232045040218)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M171.91508225450298 -171.91508225450303 L210.5521153060657 -182.26784405860386'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 210.5521153060657, -182.26784405860386)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 210.5521153060657, -182.26784405860386)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M131.91508225450298 -171.91508225450303 L166.55609840588053 -191.91508225450303'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M166.55609840588053 -191.91508225450303 L205.19313145744326 -202.26784405860386'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 205.19313145744326, -202.26784405860386)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 205.19313145744326, -202.26784405860386)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M166.55609840588053 -191.91508225450303 L194.8403696533424 -220.19935350196494'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 194.8403696533424, -220.19935350196494)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 194.8403696533424, -220.19935350196494)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M93.27804920294027 -161.56232045040218 L121.56232045040215 -189.8465916978641'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M121.56232045040215 -189.8465916978641 L156.2033366017797 -209.8465916978641'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M156.2033366017797 -209.8465916978641 L194.8403696533424 -220.19935350196494'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 194.8403696533424, -220.19935350196494)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 194.8403696533424, -220.19935350196494)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M156.2033366017797 -209.8465916978641 L184.48760784924158 -238.13086294532604'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 184.48760784924158, -238.13086294532604)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 184.48760784924158, -238.13086294532604)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M121.56232045040215 -189.8465916978641 L141.56232045040215 -224.48760784924164'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M141.56232045040215 -224.48760784924164 L169.84659169786403 -252.77187909670357'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 169.84659169786403, -252.77187909670357)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 169.84659169786403, -252.77187909670357)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M141.56232045040215 -224.48760784924164 L151.91508225450298 -263.12464090080437'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 151.91508225450298, -263.12464090080437)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 151.91508225450298, -263.12464090080437)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M58.637033051562724 -141.56232045040218 L78.63703305156272 -176.20333660177974'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M78.63703305156272 -176.20333660177974 L106.92130429902463 -204.48760784924164'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M106.92130429902463 -204.48760784924164 L141.56232045040215 -224.48760784924164'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M141.56232045040215 -224.48760784924164 L180.1993535019649 -234.84036965334246'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 180.1993535019649, -234.84036965334246)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 180.1993535019649, -234.84036965334246)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M141.56232045040215 -224.48760784924164 L169.84659169786403 -252.77187909670357'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 169.84659169786403, -252.77187909670357)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 169.84659169786403, -252.77187909670357)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M106.92130429902463 -204.48760784924164 L126.92130429902463 -239.1286240006192'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M126.92130429902463 -239.1286240006192 L155.20557554648653 -267.4128952480811'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 155.20557554648653, -267.4128952480811)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 155.20557554648653, -267.4128952480811)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M126.92130429902463 -239.1286240006192 L137.27406610312545 -277.76565705218195'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 137.27406610312545, -277.76565705218195)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 137.27406610312545, -277.76565705218195)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M78.63703305156272 -176.20333660177974 L88.98979485566356 -214.84036965334246'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M88.98979485566356 -214.84036965334246 L108.98979485566356 -249.48138580472002'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M108.98979485566356 -249.48138580472002 L137.27406610312545 -277.76565705218195'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 137.27406610312545, -277.76565705218195)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 137.27406610312545, -277.76565705218195)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M108.98979485566356 -249.48138580472002 L119.34255665976438 -288.11841885628274'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 119.34255665976438, -288.11841885628274)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 119.34255665976438, -288.11841885628274)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M88.98979485566356 -214.84036965334246 L88.98979485566356 -254.84036965334246'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M88.98979485566356 -254.84036965334246 L99.34255665976438 -293.4774027049052'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 99.34255665976438, -293.4774027049052)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 99.34255665976438, -293.4774027049052)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M88.98979485566356 -254.84036965334246 L78.63703305156272 -293.4774027049052'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 78.63703305156272, -293.4774027049052)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 78.63703305156272, -293.4774027049052)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M30.35276180410083 -113.27804920294028 L40.70552360820166 -151.915082254503'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M40.70552360820166 -151.915082254503 L60.70552360820166 -186.55609840588056'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M60.70552360820166 -186.55609840588056 L88.98979485566356 -214.84036965334246'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M88.98979485566356 -214.84036965334246 L123.63081100704109 -234.84036965334246'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M123.63081100704109 -234.84036965334246 L162.26784405860383 -245.19313145744331'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 162.26784405860383, -245.19313145744331)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 162.26784405860383, -245.19313145744331)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M123.63081100704109 -234.84036965334246 L151.91508225450298 -263.12464090080437'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 151.91508225450298, -263.12464090080437)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 151.91508225450298, -263.12464090080437)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M88.98979485566356 -214.84036965334246 L108.98979485566356 -249.48138580472002'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M108.98979485566356 -249.48138580472002 L137.27406610312545 -277.76565705218195'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 137.27406610312545, -277.76565705218195)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 137.27406610312545, -277.76565705218195)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M108.98979485566356 -249.48138580472002 L119.34255665976438 -288.11841885628274'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 119.34255665976438, -288.11841885628274)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 119.34255665976438, -288.11841885628274)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M60.70552360820166 -186.55609840588056 L71.0582854123025 -225.19313145744331'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M71.0582854123025 -225.19313145744331 L91.0582854123025 -259.83414760882084'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M91.0582854123025 -259.83414760882084 L119.34255665976438 -288.11841885628274'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 119.34255665976438, -288.11841885628274)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 119.34255665976438, -288.11841885628274)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M91.0582854123025 -259.83414760882084 L101.41104721640332 -298.4711806603836'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 101.41104721640332, -298.4711806603836)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 101.41104721640332, -298.4711806603836)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M71.0582854123025 -225.19313145744331 L71.0582854123025 -265.1931314574433'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M71.0582854123025 -265.1931314574433 L81.41104721640332 -303.83016450900607'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 81.41104721640332, -303.83016450900607)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 81.41104721640332, -303.83016450900607)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M71.0582854123025 -265.1931314574433 L60.70552360820166 -303.83016450900607'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 60.70552360820166, -303.83016450900607)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 60.70552360820166, -303.83016450900607)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M40.70552360820166 -151.915082254503 L40.70552360820166 -191.91508225450298'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M40.70552360820166 -191.91508225450298 L51.05828541230249 -230.55211530606573'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M51.05828541230249 -230.55211530606573 L71.0582854123025 -265.19313145744326'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M71.0582854123025 -265.19313145744326 L99.34255665976438 -293.4774027049052'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 99.34255665976438, -293.4774027049052)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 99.34255665976438, -293.4774027049052)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M71.0582854123025 -265.19313145744326 L81.41104721640332 -303.830164509006'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 81.41104721640332, -303.830164509006)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 81.41104721640332, -303.830164509006)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M51.05828541230249 -230.55211530606573 L51.05828541230249 -270.55211530606573'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M51.05828541230249 -270.55211530606573 L61.41104721640332 -309.1891483576285'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 61.41104721640332, -309.1891483576285)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 61.41104721640332, -309.1891483576285)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M51.05828541230249 -270.55211530606573 L40.70552360820166 -309.1891483576285'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 40.70552360820166, -309.1891483576285)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 40.70552360820166, -309.1891483576285)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M40.70552360820166 -191.91508225450298 L30.352761804100833 -230.55211530606573'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M30.352761804100833 -230.55211530606573 L30.352761804100837 -270.55211530606573'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M30.352761804100837 -270.55211530606573 L40.705523608201666 -309.1891483576285'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 40.705523608201666, -309.1891483576285)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 40.705523608201666, -309.1891483576285)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M30.352761804100837 -270.55211530606573 L20.000000000000014 -309.1891483576285'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 20.000000000000014, -309.1891483576285)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 20.000000000000014, -309.1891483576285)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M30.352761804100833 -230.55211530606573 L10.352761804100844 -265.19313145744326'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M10.352761804100844 -265.19313145744326 L1.7763568394002505e-14 -303.830164509006'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 1.7763568394002505e-14, -303.830164509006)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 1.7763568394002505e-14, -303.830164509006)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M10.352761804100844 -265.19313145744326 L-17.931509443361055 -293.4774027049052'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -17.931509443361055, -293.4774027049052)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -17.931509443361055, -293.4774027049052)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M10.352761804100831 -78.63703305156272 L10.352761804100833 -118.63703305156272'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M10.352761804100833 -118.63703305156272 L20.705523608201663 -157.27406610312545'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M20.705523608201663 -157.27406610312545 L40.70552360820166 -191.91508225450298'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M40.70552360820166 -191.91508225450298 L68.98979485566356 -220.1993535019649'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M68.98979485566356 -220.1993535019649 L103.63081100704109 -240.1993535019649'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M103.63081100704109 -240.1993535019649 L142.26784405860383 -250.55211530606573'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 142.26784405860383, -250.55211530606573)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 142.26784405860383, -250.55211530606573)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M103.63081100704109 -240.1993535019649 L131.91508225450298 -268.48362474942684'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 131.91508225450298, -268.48362474942684)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 131.91508225450298, -268.48362474942684)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M68.98979485566356 -220.1993535019649 L88.98979485566356 -254.84036965334244'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M88.98979485566356 -254.84036965334244 L117.27406610312545 -283.12464090080437'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 117.27406610312545, -283.12464090080437)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 117.27406610312545, -283.12464090080437)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M88.98979485566356 -254.84036965334244 L99.34255665976438 -293.4774027049052'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 99.34255665976438, -293.4774027049052)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 99.34255665976438, -293.4774027049052)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M40.70552360820166 -191.91508225450298 L51.05828541230249 -230.55211530606573'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M51.05828541230249 -230.55211530606573 L71.0582854123025 -265.19313145744326'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M71.0582854123025 -265.19313145744326 L99.34255665976438 -293.4774027049052'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 99.34255665976438, -293.4774027049052)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 99.34255665976438, -293.4774027049052)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M71.0582854123025 -265.19313145744326 L81.41104721640332 -303.830164509006'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 81.41104721640332, -303.830164509006)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 81.41104721640332, -303.830164509006)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M51.05828541230249 -230.55211530606573 L51.05828541230249 -270.55211530606573'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M51.05828541230249 -270.55211530606573 L61.41104721640332 -309.1891483576285'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 61.41104721640332, -309.1891483576285)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 61.41104721640332, -309.1891483576285)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M51.05828541230249 -270.55211530606573 L40.70552360820166 -309.1891483576285'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 40.70552360820166, -309.1891483576285)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 40.70552360820166, -309.1891483576285)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M20.705523608201663 -157.27406610312545 L20.705523608201666 -197.27406610312545'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M20.705523608201666 -197.27406610312545 L31.058285412302496 -235.9110991546882'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M31.058285412302496 -235.9110991546882 L51.05828541230249 -270.55211530606573'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M51.05828541230249 -270.55211530606573 L79.34255665976438 -298.83638655352763'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 79.34255665976438, -298.83638655352763)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 79.34255665976438, -298.83638655352763)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M51.05828541230249 -270.55211530606573 L61.41104721640332 -309.1891483576285'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 61.41104721640332, -309.1891483576285)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 61.41104721640332, -309.1891483576285)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M31.058285412302496 -235.9110991546882 L31.058285412302503 -275.9110991546882'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M31.058285412302503 -275.9110991546882 L41.41104721640333 -314.54813220625095'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 41.41104721640333, -314.54813220625095)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 41.41104721640333, -314.54813220625095)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M31.058285412302503 -275.9110991546882 L20.705523608201677 -314.54813220625095'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 20.705523608201677, -314.54813220625095)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 20.705523608201677, -314.54813220625095)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M20.705523608201666 -197.27406610312545 L10.352761804100844 -235.9110991546882'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M10.352761804100844 -235.9110991546882 L10.352761804100846 -275.9110991546882'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M10.352761804100846 -275.9110991546882 L20.705523608201677 -314.54813220625095'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 20.705523608201677, -314.54813220625095)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 20.705523608201677, -314.54813220625095)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M10.352761804100846 -275.9110991546882 L1.9984014443252818e-14 -314.54813220625095'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 1.9984014443252818e-14, -314.54813220625095)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 1.9984014443252818e-14, -314.54813220625095)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M10.352761804100844 -235.9110991546882 L-9.647238195899149 -270.55211530606573'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-9.647238195899149 -270.55211530606573 L-19.99999999999997 -309.1891483576285'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -19.99999999999997, -309.1891483576285)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -19.99999999999997, -309.1891483576285)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-9.647238195899149 -270.55211530606573 L-37.931509443361044 -298.83638655352763'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -37.931509443361044, -298.83638655352763)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -37.931509443361044, -298.83638655352763)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M10.352761804100833 -118.63703305156272 L8.881784197001252e-15 -157.27406610312545'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M8.881784197001252e-15 -157.27406610312545 L1.1331077795295958e-14 -197.27406610312545'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M1.1331077795295958e-14 -197.27406610312545 L10.35276180410084 -235.9110991546882'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M10.35276180410084 -235.9110991546882 L30.352761804100837 -270.55211530606573'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M30.352761804100837 -270.55211530606573 L58.637033051562724 -298.83638655352763'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 58.637033051562724, -298.83638655352763)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 58.637033051562724, -298.83638655352763)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M30.352761804100837 -270.55211530606573 L40.705523608201666 -309.1891483576285'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 40.705523608201666, -309.1891483576285)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 40.705523608201666, -309.1891483576285)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M10.35276180410084 -235.9110991546882 L10.352761804100844 -275.9110991546882'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M10.352761804100844 -275.9110991546882 L20.705523608201673 -314.54813220625095'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 20.705523608201673, -314.54813220625095)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 20.705523608201673, -314.54813220625095)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M10.352761804100844 -275.9110991546882 L1.7763568394002505e-14 -314.54813220625095'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 1.7763568394002505e-14, -314.54813220625095)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 1.7763568394002505e-14, -314.54813220625095)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M1.1331077795295958e-14 -197.27406610312545 L-10.352761804100814 -235.9110991546882'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-10.352761804100814 -235.9110991546882 L-10.352761804100812 -275.9110991546882'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-10.352761804100812 -275.9110991546882 L1.7763568394002505e-14 -314.54813220625095'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 1.7763568394002505e-14, -314.54813220625095)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 1.7763568394002505e-14, -314.54813220625095)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-10.352761804100812 -275.9110991546882 L-20.705523608201638 -314.54813220625095'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -20.705523608201638, -314.54813220625095)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -20.705523608201638, -314.54813220625095)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-10.352761804100814 -235.9110991546882 L-30.3527618041008 -270.55211530606573'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-30.3527618041008 -270.55211530606573 L-40.705523608201624 -309.1891483576285'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -40.705523608201624, -309.1891483576285)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -40.705523608201624, -309.1891483576285)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-30.3527618041008 -270.55211530606573 L-58.6370330515627 -298.83638655352763'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -58.6370330515627, -298.83638655352763)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -58.6370330515627, -298.83638655352763)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M8.881784197001252e-15 -157.27406610312545 L-19.999999999999982 -191.91508225450298'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-19.999999999999982 -191.91508225450298 L-30.35276180410081 -230.55211530606573'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-30.35276180410081 -230.55211530606573 L-30.3527618041008 -270.55211530606573'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-30.3527618041008 -270.55211530606573 L-19.99999999999997 -309.1891483576285'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -19.99999999999997, -309.1891483576285)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -19.99999999999997, -309.1891483576285)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-30.3527618041008 -270.55211530606573 L-40.705523608201624 -309.1891483576285'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -40.705523608201624, -309.1891483576285)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -40.705523608201624, -309.1891483576285)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-30.35276180410081 -230.55211530606573 L-50.352761804100794 -265.19313145744326'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-50.352761804100794 -265.19313145744326 L-60.705523608201624 -303.830164509006'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -60.705523608201624, -303.830164509006)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -60.705523608201624, -303.830164509006)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-50.352761804100794 -265.19313145744326 L-78.6370330515627 -293.4774027049052'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -78.6370330515627, -293.4774027049052)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -78.6370330515627, -293.4774027049052)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-19.999999999999982 -191.91508225450298 L-48.28427124746188 -220.1993535019649'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-48.28427124746188 -220.1993535019649 L-68.28427124746187 -254.84036965334244'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-68.28427124746187 -254.84036965334244 L-78.6370330515627 -293.4774027049052'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -78.6370330515627, -293.4774027049052)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -78.6370330515627, -293.4774027049052)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-68.28427124746187 -254.84036965334244 L-96.56854249492376 -283.12464090080437'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -96.56854249492376, -283.12464090080437)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -96.56854249492376, -283.12464090080437)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-48.28427124746188 -220.1993535019649 L-82.92528739883943 -240.1993535019649'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-82.92528739883943 -240.1993535019649 L-111.20955864630133 -268.48362474942684'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -111.20955864630133, -268.48362474942684)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -111.20955864630133, -268.48362474942684)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-82.92528739883943 -240.1993535019649 L-121.56232045040215 -250.55211530606573'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -121.56232045040215, -250.55211530606573)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -121.56232045040215, -250.55211530606573)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M2.4492935982947065e-15 -40.0 L-10.352761804100822 -78.63703305156272'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-10.352761804100822 -78.63703305156272 L-10.35276180410082 -118.63703305156272'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-10.35276180410082 -118.63703305156272 L8.881784197001252e-15 -157.27406610312545'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M8.881784197001252e-15 -157.27406610312545 L20.000000000000004 -191.91508225450298'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M20.000000000000004 -191.91508225450298 L48.2842712474619 -220.1993535019649'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M48.2842712474619 -220.1993535019649 L82.92528739883943 -240.1993535019649'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M82.92528739883943 -240.1993535019649 L121.56232045040215 -250.55211530606573'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 121.56232045040215, -250.55211530606573)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 121.56232045040215, -250.55211530606573)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M82.92528739883943 -240.1993535019649 L111.20955864630133 -268.48362474942684'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 111.20955864630133, -268.48362474942684)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 111.20955864630133, -268.48362474942684)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M48.2842712474619 -220.1993535019649 L68.2842712474619 -254.84036965334244'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M68.2842712474619 -254.84036965334244 L96.5685424949238 -283.12464090080437'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 96.5685424949238, -283.12464090080437)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 96.5685424949238, -283.12464090080437)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M68.2842712474619 -254.84036965334244 L78.63703305156272 -293.4774027049052'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 78.63703305156272, -293.4774027049052)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 78.63703305156272, -293.4774027049052)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M20.000000000000004 -191.91508225450298 L30.352761804100833 -230.55211530606573'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M30.352761804100833 -230.55211530606573 L50.35276180410083 -265.19313145744326'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M50.35276180410083 -265.19313145744326 L78.63703305156272 -293.4774027049052'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 78.63703305156272, -293.4774027049052)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 78.63703305156272, -293.4774027049052)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M50.35276180410083 -265.19313145744326 L60.70552360820166 -303.830164509006'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 60.70552360820166, -303.830164509006)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 60.70552360820166, -303.830164509006)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M30.352761804100833 -230.55211530606573 L30.352761804100837 -270.55211530606573'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M30.352761804100837 -270.55211530606573 L40.705523608201666 -309.1891483576285'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 40.705523608201666, -309.1891483576285)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 40.705523608201666, -309.1891483576285)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M30.352761804100837 -270.55211530606573 L20.000000000000014 -309.1891483576285'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 20.000000000000014, -309.1891483576285)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 20.000000000000014, -309.1891483576285)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M8.881784197001252e-15 -157.27406610312545 L1.1331077795295958e-14 -197.27406610312545'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M1.1331077795295958e-14 -197.27406610312545 L10.35276180410084 -235.9110991546882'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M10.35276180410084 -235.9110991546882 L30.352761804100837 -270.55211530606573'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M30.352761804100837 -270.55211530606573 L58.637033051562724 -298.83638655352763'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 58.637033051562724, -298.83638655352763)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 58.637033051562724, -298.83638655352763)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M30.352761804100837 -270.55211530606573 L40.705523608201666 -309.1891483576285'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 40.705523608201666, -309.1891483576285)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 40.705523608201666, -309.1891483576285)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M10.35276180410084 -235.9110991546882 L10.352761804100844 -275.9110991546882'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M10.352761804100844 -275.9110991546882 L20.705523608201673 -314.54813220625095'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 20.705523608201673, -314.54813220625095)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 20.705523608201673, -314.54813220625095)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M10.352761804100844 -275.9110991546882 L1.7763568394002505e-14 -314.54813220625095'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 1.7763568394002505e-14, -314.54813220625095)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 1.7763568394002505e-14, -314.54813220625095)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M1.1331077795295958e-14 -197.27406610312545 L-10.352761804100814 -235.9110991546882'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-10.352761804100814 -235.9110991546882 L-10.352761804100812 -275.9110991546882'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-10.352761804100812 -275.9110991546882 L1.7763568394002505e-14 -314.54813220625095'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 1.7763568394002505e-14, -314.54813220625095)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 1.7763568394002505e-14, -314.54813220625095)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-10.352761804100812 -275.9110991546882 L-20.705523608201638 -314.54813220625095'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -20.705523608201638, -314.54813220625095)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -20.705523608201638, -314.54813220625095)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-10.352761804100814 -235.9110991546882 L-30.3527618041008 -270.55211530606573'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-30.3527618041008 -270.55211530606573 L-40.705523608201624 -309.1891483576285'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -40.705523608201624, -309.1891483576285)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -40.705523608201624, -309.1891483576285)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-30.3527618041008 -270.55211530606573 L-58.6370330515627 -298.83638655352763'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -58.6370330515627, -298.83638655352763)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -58.6370330515627, -298.83638655352763)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-10.35276180410082 -118.63703305156272 L-20.705523608201645 -157.27406610312545'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-20.705523608201645 -157.27406610312545 L-20.70552360820164 -197.27406610312545'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-20.70552360820164 -197.27406610312545 L-10.352761804100812 -235.9110991546882'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-10.352761804100812 -235.9110991546882 L9.647238195899185 -270.55211530606573'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M9.647238195899185 -270.55211530606573 L37.93150944336108 -298.83638655352763'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 37.93150944336108, -298.83638655352763)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 37.93150944336108, -298.83638655352763)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M9.647238195899185 -270.55211530606573 L20.000000000000014 -309.1891483576285'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 20.000000000000014, -309.1891483576285)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 20.000000000000014, -309.1891483576285)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-10.352761804100812 -235.9110991546882 L-10.35276180410081 -275.9110991546882'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-10.35276180410081 -275.9110991546882 L1.9984014443252818e-14 -314.54813220625095'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 1.9984014443252818e-14, -314.54813220625095)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 1.9984014443252818e-14, -314.54813220625095)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-10.35276180410081 -275.9110991546882 L-20.70552360820163 -314.54813220625095'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -20.70552360820163, -314.54813220625095)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -20.70552360820163, -314.54813220625095)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-20.70552360820164 -197.27406610312545 L-31.058285412302467 -235.9110991546882'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-31.058285412302467 -235.9110991546882 L-31.05828541230246 -275.9110991546882'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-31.05828541230246 -275.9110991546882 L-20.70552360820163 -314.54813220625095'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -20.70552360820163, -314.54813220625095)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -20.70552360820163, -314.54813220625095)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-31.05828541230246 -275.9110991546882 L-41.41104721640328 -314.54813220625095'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -41.41104721640328, -314.54813220625095)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -41.41104721640328, -314.54813220625095)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-31.058285412302467 -235.9110991546882 L-51.05828541230245 -270.55211530606573'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-51.05828541230245 -270.55211530606573 L-61.41104721640328 -309.1891483576285'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -61.41104721640328, -309.1891483576285)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -61.41104721640328, -309.1891483576285)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-51.05828541230245 -270.55211530606573 L-79.34255665976436 -298.83638655352763'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -79.34255665976436, -298.83638655352763)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -79.34255665976436, -298.83638655352763)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-20.705523608201645 -157.27406610312545 L-40.705523608201645 -191.91508225450298'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-40.705523608201645 -191.91508225450298 L-51.05828541230247 -230.55211530606573'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-51.05828541230247 -230.55211530606573 L-51.05828541230247 -270.55211530606573'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-51.05828541230247 -270.55211530606573 L-40.705523608201645 -309.1891483576285'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -40.705523608201645, -309.1891483576285)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -40.705523608201645, -309.1891483576285)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-51.05828541230247 -270.55211530606573 L-61.411047216403304 -309.1891483576285'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -61.411047216403304, -309.1891483576285)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -61.411047216403304, -309.1891483576285)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-51.05828541230247 -230.55211530606573 L-71.05828541230247 -265.19313145744326'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-71.05828541230247 -265.19313145744326 L-81.41104721640329 -303.830164509006'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -81.41104721640329, -303.830164509006)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -81.41104721640329, -303.830164509006)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-71.05828541230247 -265.19313145744326 L-99.34255665976437 -293.4774027049052'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -99.34255665976437, -293.4774027049052)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -99.34255665976437, -293.4774027049052)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-40.705523608201645 -191.91508225450298 L-68.98979485566355 -220.1993535019649'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-68.98979485566355 -220.1993535019649 L-88.98979485566355 -254.84036965334244'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-88.98979485566355 -254.84036965334244 L-99.34255665976437 -293.4774027049052'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -99.34255665976437, -293.4774027049052)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -99.34255665976437, -293.4774027049052)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-88.98979485566355 -254.84036965334244 L-117.27406610312543 -283.12464090080437'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -117.27406610312543, -283.12464090080437)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -117.27406610312543, -283.12464090080437)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-68.98979485566355 -220.1993535019649 L-103.63081100704109 -240.1993535019649'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-103.63081100704109 -240.1993535019649 L-131.91508225450298 -268.48362474942684'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -131.91508225450298, -268.48362474942684)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -131.91508225450298, -268.48362474942684)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-103.63081100704109 -240.1993535019649 L-142.26784405860383 -250.55211530606573'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -142.26784405860383, -250.55211530606573)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -142.26784405860383, -250.55211530606573)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-10.352761804100822 -78.63703305156272 L-30.352761804100812 -113.27804920294028'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-30.352761804100812 -113.27804920294028 L-40.705523608201645 -151.915082254503'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-40.705523608201645 -151.915082254503 L-40.705523608201645 -191.91508225450298'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-40.705523608201645 -191.91508225450298 L-30.352761804100812 -230.55211530606573'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-30.352761804100812 -230.55211530606573 L-10.352761804100815 -265.19313145744326'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-10.352761804100815 -265.19313145744326 L17.93150944336108 -293.4774027049052'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 17.93150944336108, -293.4774027049052)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 17.93150944336108, -293.4774027049052)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-10.352761804100815 -265.19313145744326 L1.3322676295501878e-14 -303.830164509006'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 1.3322676295501878e-14, -303.830164509006)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 1.3322676295501878e-14, -303.830164509006)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-30.352761804100812 -230.55211530606573 L-30.35276180410081 -270.55211530606573'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-30.35276180410081 -270.55211530606573 L-19.99999999999998 -309.1891483576285'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -19.99999999999998, -309.1891483576285)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -19.99999999999998, -309.1891483576285)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-30.35276180410081 -270.55211530606573 L-40.70552360820163 -309.1891483576285'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -40.70552360820163, -309.1891483576285)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -40.70552360820163, -309.1891483576285)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-40.705523608201645 -191.91508225450298 L-51.05828541230247 -230.55211530606573'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-51.05828541230247 -230.55211530606573 L-51.05828541230247 -270.55211530606573'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-51.05828541230247 -270.55211530606573 L-40.705523608201645 -309.1891483576285'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -40.705523608201645, -309.1891483576285)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -40.705523608201645, -309.1891483576285)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-51.05828541230247 -270.55211530606573 L-61.411047216403304 -309.1891483576285'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -61.411047216403304, -309.1891483576285)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -61.411047216403304, -309.1891483576285)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-51.05828541230247 -230.55211530606573 L-71.05828541230247 -265.19313145744326'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-71.05828541230247 -265.19313145744326 L-81.41104721640329 -303.830164509006'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -81.41104721640329, -303.830164509006)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -81.41104721640329, -303.830164509006)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-71.05828541230247 -265.19313145744326 L-99.34255665976437 -293.4774027049052'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -99.34255665976437, -293.4774027049052)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -99.34255665976437, -293.4774027049052)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-40.705523608201645 -151.915082254503 L-60.70552360820163 -186.55609840588056'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-60.70552360820163 -186.55609840588056 L-71.05828541230245 -225.19313145744331'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-71.05828541230245 -225.19313145744331 L-71.05828541230245 -265.1931314574433'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-71.05828541230245 -265.1931314574433 L-60.705523608201624 -303.83016450900607'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -60.705523608201624, -303.83016450900607)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -60.705523608201624, -303.83016450900607)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-71.05828541230245 -265.1931314574433 L-81.41104721640329 -303.83016450900607'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -81.41104721640329, -303.83016450900607)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -81.41104721640329, -303.83016450900607)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-71.05828541230245 -225.19313145744331 L-91.05828541230245 -259.83414760882084'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-91.05828541230245 -259.83414760882084 L-101.41104721640329 -298.4711806603836'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -101.41104721640329, -298.4711806603836)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -101.41104721640329, -298.4711806603836)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-91.05828541230245 -259.83414760882084 L-119.34255665976436 -288.11841885628274'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -119.34255665976436, -288.11841885628274)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -119.34255665976436, -288.11841885628274)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-60.70552360820163 -186.55609840588056 L-88.98979485566355 -214.84036965334246'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-88.98979485566355 -214.84036965334246 L-108.98979485566355 -249.48138580472002'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-108.98979485566355 -249.48138580472002 L-119.34255665976437 -288.11841885628274'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -119.34255665976437, -288.11841885628274)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -119.34255665976437, -288.11841885628274)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-108.98979485566355 -249.48138580472002 L-137.27406610312545 -277.76565705218195'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -137.27406610312545, -277.76565705218195)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -137.27406610312545, -277.76565705218195)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-88.98979485566355 -214.84036965334246 L-123.63081100704109 -234.84036965334246'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-123.63081100704109 -234.84036965334246 L-151.91508225450298 -263.12464090080437'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -151.91508225450298, -263.12464090080437)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -151.91508225450298, -263.12464090080437)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-123.63081100704109 -234.84036965334246 L-162.26784405860383 -245.19313145744331'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -162.26784405860383, -245.19313145744331)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -162.26784405860383, -245.19313145744331)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-30.352761804100812 -113.27804920294028 L-58.63703305156271 -141.56232045040218'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-58.63703305156271 -141.56232045040218 L-78.6370330515627 -176.20333660177974'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-78.6370330515627 -176.20333660177974 L-88.98979485566352 -214.84036965334246'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-88.98979485566352 -214.84036965334246 L-88.98979485566352 -254.84036965334246'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-88.98979485566352 -254.84036965334246 L-78.6370330515627 -293.4774027049052'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -78.6370330515627, -293.4774027049052)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -78.6370330515627, -293.4774027049052)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-88.98979485566352 -254.84036965334246 L-99.34255665976436 -293.4774027049052'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -99.34255665976436, -293.4774027049052)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -99.34255665976436, -293.4774027049052)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-88.98979485566352 -214.84036965334246 L-108.9897948556635 -249.48138580472002'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-108.9897948556635 -249.48138580472002 L-119.34255665976434 -288.11841885628274'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -119.34255665976434, -288.11841885628274)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -119.34255665976434, -288.11841885628274)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-108.9897948556635 -249.48138580472002 L-137.2740661031254 -277.76565705218195'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -137.2740661031254, -277.76565705218195)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -137.2740661031254, -277.76565705218195)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-78.6370330515627 -176.20333660177974 L-106.9213042990246 -204.48760784924164'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-106.9213042990246 -204.48760784924164 L-126.9213042990246 -239.1286240006192'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-126.9213042990246 -239.1286240006192 L-137.27406610312542 -277.76565705218195'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -137.27406610312542, -277.76565705218195)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -137.27406610312542, -277.76565705218195)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-126.9213042990246 -239.1286240006192 L-155.2055755464865 -267.4128952480811'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -155.2055755464865, -267.4128952480811)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -155.2055755464865, -267.4128952480811)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-106.9213042990246 -204.48760784924164 L-141.56232045040215 -224.48760784924164'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-141.56232045040215 -224.48760784924164 L-169.84659169786403 -252.77187909670357'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -169.84659169786403, -252.77187909670357)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -169.84659169786403, -252.77187909670357)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-141.56232045040215 -224.48760784924164 L-180.19935350196488 -234.84036965334246'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -180.19935350196488, -234.84036965334246)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -180.19935350196488, -234.84036965334246)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-58.63703305156271 -141.56232045040218 L-93.27804920294027 -161.56232045040215'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-93.27804920294027 -161.56232045040215 L-121.56232045040215 -189.84659169786408'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-121.56232045040215 -189.84659169786408 L-141.56232045040215 -224.4876078492416'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-141.56232045040215 -224.4876078492416 L-151.91508225450298 -263.12464090080437'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -151.91508225450298, -263.12464090080437)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -151.91508225450298, -263.12464090080437)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-141.56232045040215 -224.4876078492416 L-169.84659169786403 -252.77187909670351'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -169.84659169786403, -252.77187909670351)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -169.84659169786403, -252.77187909670351)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-121.56232045040215 -189.84659169786408 L-156.2033366017797 -209.84659169786408'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-156.2033366017797 -209.84659169786408 L-184.4876078492416 -238.130862945326'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -184.4876078492416, -238.130862945326)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -184.4876078492416, -238.130862945326)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-156.2033366017797 -209.84659169786408 L-194.84036965334244 -220.1993535019649'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -194.84036965334244, -220.1993535019649)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -194.84036965334244, -220.1993535019649)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-93.27804920294027 -161.56232045040215 L-131.91508225450298 -171.91508225450298'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-131.91508225450298 -171.91508225450298 L-166.55609840588053 -191.91508225450298'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-166.55609840588053 -191.91508225450298 L-194.8403696533424 -220.1993535019649'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -194.8403696533424, -220.1993535019649)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -194.8403696533424, -220.1993535019649)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-166.55609840588053 -191.91508225450298 L-205.19313145744326 -202.26784405860383'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -205.19313145744326, -202.26784405860383)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -205.19313145744326, -202.26784405860383)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-131.91508225450298 -171.91508225450298 L-171.91508225450298 -171.91508225450298'/>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-171.91508225450298 -171.91508225450298 L-210.55211530606573 -182.26784405860383'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -210.55211530606573, -182.26784405860383)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -210.55211530606573, -182.26784405860383)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <path fill='none' vector-effect='non-scaling-stroke' stroke='black' stroke-width='1' d='M-171.91508225450298 -171.91508225450298 L-210.5521153060657 -161.56232045040213'/>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -210.5521153060657, -161.56232045040213)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -210.5521153060657, -161.56232045040213)'>
+    <ellipse fill='yellow' cx='0' cy='0' rx='10.0' ry='10.0'/>
+  </g>
+</g>
+</svg>
