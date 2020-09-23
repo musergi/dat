@@ -14,7 +14,7 @@ repeatDraw thing 0 = blank
 repeatDraw thing n = thing n <> repeatDraw thing (n - 1)
 
 light :: Int -> Int -> Drawing
-light r c = translated (3 * fromIntegral c - 6) (8 * fromIntegral r - 16) trafficLight
+light r c = translated (4 * fromIntegral c - 8) (9 * fromIntegral r - 18) trafficLight
 
 lightRow :: Int -> Drawing
 lightRow r = repeatDraw (light r) 3

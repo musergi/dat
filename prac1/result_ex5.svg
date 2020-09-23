@@ -125,52 +125,52 @@
   <line vector-effect='non-scaling-stroke' stroke='gray' stroke-width='1' x1='-300.0'  y1='-300' x2='-300.0' y2='300'/>
   <text fill='gray' text-anchor='middle' transform='translate(300.0,10.0) scale(0.7,0.7)' x='0' y='0'>15</text>
   <text fill='gray' text-anchor='middle' transform='translate(-300.0,10.0) scale(0.7,0.7)' x='0' y='0'>-15</text>
-  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -60.0, 160.0)'>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -80.0, 180.0)'>
     <rect fill='black' x='-30.0' y='-80.0' width='60.0' height='160.0'/>
   </g>
-  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -60.0, 210.0)'>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -80.0, 230.0)'>
     <ellipse fill='green' cx='0' cy='0' rx='20.0' ry='20.0'/>
   </g>
-  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -60.0, 160.0)'>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -80.0, 180.0)'>
     <ellipse fill='yellow' cx='0' cy='0' rx='20.0' ry='20.0'/>
   </g>
-  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -60.0, 110.0)'>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -80.0, 130.0)'>
     <ellipse fill='red' cx='0' cy='0' rx='20.0' ry='20.0'/>
   </g>
-  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 0.0, 160.0)'>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 0.0, 180.0)'>
     <rect fill='black' x='-30.0' y='-80.0' width='60.0' height='160.0'/>
   </g>
-  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 0.0, 210.0)'>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 0.0, 230.0)'>
     <ellipse fill='green' cx='0' cy='0' rx='20.0' ry='20.0'/>
   </g>
-  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 0.0, 160.0)'>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 0.0, 180.0)'>
     <ellipse fill='yellow' cx='0' cy='0' rx='20.0' ry='20.0'/>
   </g>
-  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 0.0, 110.0)'>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 0.0, 130.0)'>
     <ellipse fill='red' cx='0' cy='0' rx='20.0' ry='20.0'/>
   </g>
-  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 60.0, 160.0)'>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 80.0, 180.0)'>
     <rect fill='black' x='-30.0' y='-80.0' width='60.0' height='160.0'/>
   </g>
-  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 60.0, 210.0)'>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 80.0, 230.0)'>
     <ellipse fill='green' cx='0' cy='0' rx='20.0' ry='20.0'/>
   </g>
-  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 60.0, 160.0)'>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 80.0, 180.0)'>
     <ellipse fill='yellow' cx='0' cy='0' rx='20.0' ry='20.0'/>
   </g>
-  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 60.0, 110.0)'>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 80.0, 130.0)'>
     <ellipse fill='red' cx='0' cy='0' rx='20.0' ry='20.0'/>
   </g>
-  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -60.0, -0.0)'>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -80.0, -0.0)'>
     <rect fill='black' x='-30.0' y='-80.0' width='60.0' height='160.0'/>
   </g>
-  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -60.0, 50.0)'>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -80.0, 50.0)'>
     <ellipse fill='green' cx='0' cy='0' rx='20.0' ry='20.0'/>
   </g>
-  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -60.0, -0.0)'>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -80.0, -0.0)'>
     <ellipse fill='yellow' cx='0' cy='0' rx='20.0' ry='20.0'/>
   </g>
-  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -60.0, -50.0)'>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -80.0, -50.0)'>
     <ellipse fill='red' cx='0' cy='0' rx='20.0' ry='20.0'/>
   </g>
   <g transform='matrix(1.0, -0.0, -0.0, 1.0, 0.0, -0.0)'>
@@ -185,52 +185,52 @@
   <g transform='matrix(1.0, -0.0, -0.0, 1.0, 0.0, -50.0)'>
     <ellipse fill='red' cx='0' cy='0' rx='20.0' ry='20.0'/>
   </g>
-  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 60.0, -0.0)'>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 80.0, -0.0)'>
     <rect fill='black' x='-30.0' y='-80.0' width='60.0' height='160.0'/>
   </g>
-  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 60.0, 50.0)'>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 80.0, 50.0)'>
     <ellipse fill='green' cx='0' cy='0' rx='20.0' ry='20.0'/>
   </g>
-  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 60.0, -0.0)'>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 80.0, -0.0)'>
     <ellipse fill='yellow' cx='0' cy='0' rx='20.0' ry='20.0'/>
   </g>
-  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 60.0, -50.0)'>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 80.0, -50.0)'>
     <ellipse fill='red' cx='0' cy='0' rx='20.0' ry='20.0'/>
   </g>
-  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -60.0, -160.0)'>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -80.0, -180.0)'>
     <rect fill='black' x='-30.0' y='-80.0' width='60.0' height='160.0'/>
   </g>
-  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -60.0, -110.0)'>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -80.0, -130.0)'>
     <ellipse fill='green' cx='0' cy='0' rx='20.0' ry='20.0'/>
   </g>
-  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -60.0, -160.0)'>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -80.0, -180.0)'>
     <ellipse fill='yellow' cx='0' cy='0' rx='20.0' ry='20.0'/>
   </g>
-  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -60.0, -210.0)'>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, -80.0, -230.0)'>
     <ellipse fill='red' cx='0' cy='0' rx='20.0' ry='20.0'/>
   </g>
-  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 0.0, -160.0)'>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 0.0, -180.0)'>
     <rect fill='black' x='-30.0' y='-80.0' width='60.0' height='160.0'/>
   </g>
-  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 0.0, -110.0)'>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 0.0, -130.0)'>
     <ellipse fill='green' cx='0' cy='0' rx='20.0' ry='20.0'/>
   </g>
-  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 0.0, -160.0)'>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 0.0, -180.0)'>
     <ellipse fill='yellow' cx='0' cy='0' rx='20.0' ry='20.0'/>
   </g>
-  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 0.0, -210.0)'>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 0.0, -230.0)'>
     <ellipse fill='red' cx='0' cy='0' rx='20.0' ry='20.0'/>
   </g>
-  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 60.0, -160.0)'>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 80.0, -180.0)'>
     <rect fill='black' x='-30.0' y='-80.0' width='60.0' height='160.0'/>
   </g>
-  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 60.0, -110.0)'>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 80.0, -130.0)'>
     <ellipse fill='green' cx='0' cy='0' rx='20.0' ry='20.0'/>
   </g>
-  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 60.0, -160.0)'>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 80.0, -180.0)'>
     <ellipse fill='yellow' cx='0' cy='0' rx='20.0' ry='20.0'/>
   </g>
-  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 60.0, -210.0)'>
+  <g transform='matrix(1.0, -0.0, -0.0, 1.0, 80.0, -230.0)'>
     <ellipse fill='red' cx='0' cy='0' rx='20.0' ry='20.0'/>
   </g>
 </g>
