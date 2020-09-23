@@ -11,6 +11,8 @@ semafor (x, y) = translated x y (
           solidRectangle 3 8)
 
 semafors :: (Double, Double) -> (Int, Int) -> Drawing
+semafors (_, _) (_, 0) = blank
+semafors (_, _) (0,_ ) = blank
 semafors (x, y) (w, h) =
     semafor (x, y) <>
     semafors (x + 4.0, y) (w - 1, 1) <>
