@@ -4,10 +4,11 @@ lightBulb :: Color -> Double -> Drawing
 lightBulb c y = colored c $ translated 0 y $ solidCircle 1
 
 trafficLight :: Drawing
-trafficLight = lightBulb red 2.5 <>
+trafficLight = 
+            solidRectangle 3 8 <>
             lightBulb yellow 0 <>
             lightBulb green (-2.5) <>
-            solidRectangle 3 8
+            lightBulb red 2.5
 
 repeatDraw :: (Int -> Drawing) -> Int -> Drawing
 repeatDraw thing 0 = blank
@@ -23,4 +24,4 @@ myDrawing :: Drawing
 myDrawing = repeatDraw lightRow 3
 
 main :: IO ()
-main = svgOf (myDrawing <> coordinatePlane)
+main = svgOf myDrawing

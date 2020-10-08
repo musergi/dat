@@ -1,15 +1,15 @@
 import Drawing
 
-treeDrawing :: Int -> (Double, Double) -> (Double, Double) -> Drawing
+treeDrawing :: Int -> Point -> Double -> Drawing
 treeDrawing 0 (x, y) _ = translated x y $ colored yellow $ solidCircle 0.5
-treeDrawing n (x, y) (t, l) = 
-    let end = (x + l * (cos t), y + l * (sin t)) in
-    treeDrawing (n - 1) end (t + (pi / 12), l) <>
-    treeDrawing (n - 1) end (t - (pi / 12), l) <>
-    polyline [(x, y), end]
+treeDrawing n (x, y) a = 
+    let end = (x + 1.5 * (cos a), y + 1.5 * (sin a)) in
+    polyline [(x, y), end] <>
+    treeDrawing (n - 1) end (a + (pi / 12)) <>
+    treeDrawing (n - 1) end (a - (pi / 12))
 
 myDrawing :: Drawing
-myDrawing = treeDrawing 8 (0.0, 0.0) (pi / 2.0, 2.0)
+myDrawing = treeDrawing 8 (0.0, 0.0) (pi / 2.0)
 
 main :: IO ()
-main = svgOf (myDrawing <> coordinatePlane)
+main = svgOf myDrawing

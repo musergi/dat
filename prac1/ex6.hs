@@ -4,15 +4,16 @@ lightBulb :: Color -> Double -> Drawing
 lightBulb c y = colored c $ translated 0 y $ solidCircle 1
 
 trafficLight :: Drawing
-trafficLight = lightBulb red 2.5 <>
+trafficLight = 
+            solidRectangle 3 8 <>
             lightBulb yellow 0 <>
             lightBulb green (-2.5) <>
-            solidRectangle 3 8
+            lightBulb red 2.5
 
-light :: (Double, Double) -> Drawing
+light :: Point -> Drawing
 light (x, y) = translated x y trafficLight
 
-trafficLights :: [(Double, Double)] -> Drawing
+trafficLights :: [Point] -> Drawing
 trafficLights p = foldMap light p
 
 myDrawing :: Drawing
@@ -22,4 +23,4 @@ myDrawing = trafficLights [
     ((-4), (-9)), (0, (-9)), (4, (-9))]
 
 main :: IO ()
-main = svgOf (myDrawing <> coordinatePlane)
+main = svgOf myDrawing
