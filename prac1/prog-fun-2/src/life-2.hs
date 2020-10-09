@@ -42,7 +42,38 @@ initial = Game
     }
 
 -----------------------------------------------------
--- A completar per l'estudiant
-...
+-- Event handling
 
+handleEvent :: Event -> Game -> Game
 
+handleEvent (KeyDown "N") game =                -- Next generation
+    setGmBoard (nextGeneration (gmBoard game)) game
+
+handleEvent (MouseDown (x, y)) game =           -- Set live/dead cells
+    let pos = (round x, round y)
+        brd = gmBoard game
+    in setGmBoard (setCell (not $ cellIsLive pos brd) pos brd) game
+    
+handleEvent (KeyDown "G") game =
+    setGmGridMode (next (gmGridMode game)) game
+
+handleEvent _ game =                            -- Ignore other events
+    game
+
+-- Grid Mode Methods
+next :: GridMode -> GridMode
+next NoGrid = LivesGrid
+next LivesGrid = ViewGrid
+next _ = NoGrid
+
+-- Drawing methods
+draw game = drawBoard (gmBoard game) <> gridDrawing (gmBoard game) (gmGridMode game)
+
+-- Grid Mode Drawing
+gridDrawing :: Board -> GridMode -> Drawing
+gridDrawing _  NoGrid = blank
+gridDrawing _ ViewGrid =
+    let w = round viewWidth
+        h = round viewHeight in
+    drawGrid (-w, -h) (w, h)
+gridDrawing board LivesGrid = drawGrid (minLiveCell board) (maxLiveCell board)

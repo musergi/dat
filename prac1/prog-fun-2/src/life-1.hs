@@ -54,6 +54,5 @@ handleEvent _ game =                            -- Ignore other events
 -----------------------------------------------------
 -- Drawing
 
-draw game =
-    drawBoard (gmBoard game)
+draw game = drawBoard (gmBoard game)
 
