@@ -12,7 +12,7 @@ main = do
     writeCounter counter
     putStrLn "Content-Type: text/plain"
     putStrLn ""
-    putStrLn show counter
+    putStrLn $ show counter
 
 readCounter :: IO Int
 readCounter = do
