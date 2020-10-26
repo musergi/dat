@@ -6,15 +6,13 @@ where
 import System.IO
 import Control.Exception
 
--- ****************************************************************
-
 main :: IO ()
 main = do
-    -- Llegeix el valor del fitxer comptador i l'incrementa
-    -- Escriu el nou valor al fitxer comptador
-    -- Treu la sortida adeqüada (amb el nou valor)
-    -- (A completar per l'estudiant)
-    ...
+    counter <- fmap (+1) readCounter
+    writeCounter counter
+    putStrLn "Content-Type: text/plain"
+    putStrLn ""
+    putStrLn show counter
 
 readCounter :: IO Int
 readCounter = do
