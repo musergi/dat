@@ -3,6 +3,13 @@
     <head>
        <meta charset="UTF-8">
        <title>DAT</title>
+        <script>
+            $(doument).ready(function() {
+                $.get("counter.cgi", function(value) {
+                    $(".counter").text(value);
+                });
+            });
+        </script>
     </head>
     <body>
         <h1>Practica 2</h1>
@@ -10,5 +17,6 @@
             <li><a href="test_html.cgi">Test HTML CGI</a></li>
             <li><a href="test_txt.cgi">Test TXT CGI</a></li>
         </ul>
+        <p>Ets el visitant número <span class="counter"></span></p>
     </body>
 </html>
