@@ -1,2 +1,2 @@
 all:
-	cp public_html ../
+	cp -r public_html ../
