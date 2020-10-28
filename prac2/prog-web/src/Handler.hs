@@ -224,7 +224,7 @@ lookupPostParams name = do
             --   fst :: (a, b) -> a
             --   snd :: (a, b) -> b
             --   filter :: (a -> Bool) -> [a] -> [a]
-            return map snd (filter (\param -> fst param == name) params) -- Filter by fst, map snd
+            return (map snd (filter (\param -> fst param == name) params)) -- Filter by fst, map snd
         Nothing ->
             -- El contingut de la peticio no es un formulari. No hi ha valors.
             pure []
