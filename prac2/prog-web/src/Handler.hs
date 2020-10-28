@@ -80,9 +80,9 @@ instance Monad Handler where
         HandlerC $ \req s0 -> do
             -- Monad IO:
             (x, s1) <- hx req s0
-            HandlerC hy <- f x
+            let HandlerC hy = f x
             (y, s2) <- hy req s1
-            pure (y, s2)
+            return (y, s2)
 
 
 -- class MonadIO m: Monads m in which IO computations may be embedded.
@@ -106,12 +106,12 @@ asksRequest f = HandlerC $ \ req st0 ->
 -- Obte informació de l'estat del handler
 getsHandlerState :: (HandlerState -> a) -> Handler a
 getsHandlerState f =
-    HandlerC $ \req s0 -> (f s0, s0)
+    HandlerC $ \req s0 -> return (f s0, s0)
 
 -- Modifica l'estat del handler
 modifyHandlerState :: (HandlerState -> HandlerState) -> Handler ()
 modifyHandlerState f =
-    HandlerC $ \req s0 -> ((), f s0)
+    HandlerC $ \req s0 -> return ((), f s0)
 
 -- ****************************************************************
 
@@ -224,7 +224,7 @@ lookupPostParams name = do
             --   fst :: (a, b) -> a
             --   snd :: (a, b) -> b
             --   filter :: (a -> Bool) -> [a] -> [a]
-            pure map snd (filter (\param -> fst param == name) params) -- Filter by fst, map snd
+            return map snd (filter (\param -> fst param == name) params) -- Filter by fst, map snd
         Nothing ->
             -- El contingut de la peticio no es un formulari. No hi ha valors.
             pure []
