@@ -80,7 +80,7 @@ instance Monad Handler where
         HandlerC $ \req s0 -> do
             -- Monad IO:
             (x, s1) <- hx req s0
-            Handler hy <- f a
+            HandlerC hy <- f a
             (y, s2) <- hy req s1
             pure (y, s2)
 
