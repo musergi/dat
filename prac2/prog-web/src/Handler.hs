@@ -65,18 +65,25 @@ instance Applicative Handler where
     --      pure  :: a -> Handler a
     --      (<*>) :: Handler (a -> b) -> Handler a -> Handler b
     pure x =
-        -- (A completar per l'estudiant)
-        ...
+        HandlerC $ \req s0 -> pure (x, s0)
     HandlerC hf <*> HandlerC hx =
-        -- (A completar per l'estudiant)
-        ...
+        HandlerC $ \req s0 -> do 
+            -- Monad IO:
+            (f, s1) <- hf req s0
+            (x, s2) <- hx req s1
+            pure (f x, s2)
 
 instance Monad Handler where
     -- tipus en aquesta instancia:
     --      (>>=) :: Handler a -> (a -> Handler b) -> Handler b
-    HandlerC hx >>= f =
-        -- (A completar per l'estudiant)
-        ...
+    HandlerC hx >>= f = 
+        HandlerC $ \req s0 -> do
+            -- Monad IO:
+            (x, s1) <- hx req s0
+            let Handler hy = f a in
+                (y, s2) <- hy req s1
+            pure (y, s2)
+
 
 -- class MonadIO m: Monads m in which IO computations may be embedded.
 -- The method 'liftIO' lifts a computation from the IO monad.
@@ -99,14 +106,12 @@ asksRequest f = HandlerC $ \ req st0 ->
 -- Obte informació de l'estat del handler
 getsHandlerState :: (HandlerState -> a) -> Handler a
 getsHandlerState f =
-    -- (A completar per l'estudiant)
-    ...
+    HandlerC $ \req s0 -> (f s0, s0)
 
 -- Modifica l'estat del handler
 modifyHandlerState :: (HandlerState -> HandlerState) -> Handler ()
 modifyHandlerState f =
-    -- (A completar per l'estudiant)
-    ...
+    HandlerC $ \req s0 -> ((), f s0)
 
 -- ****************************************************************
 
@@ -219,7 +224,7 @@ lookupPostParams name = do
             --   fst :: (a, b) -> a
             --   snd :: (a, b) -> b
             --   filter :: (a -> Bool) -> [a] -> [a]
-            ...
+            pure map snd (filter (\param -> fst param == name) params) -- Filter by fst, map snd
         Nothing ->
             -- El contingut de la peticio no es un formulari. No hi ha valors.
             pure []
