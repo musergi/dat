@@ -1,0 +1,11 @@
+#counter-section {
+    font-size: 2em;
+    text-align: center;
+}
+
+#counter-section span {
+    font-size: 3em;
+    background-color: var(--primary);
+    padding: 16px;
+    border-radius: 15px;
+}
