@@ -1,6 +1,14 @@
 html, body {
+    --header-color: #3E3228;
+    --clear: #EEE5E5;
+    --background: #77AF9C;
+    --primary: #0D324D;
+    --primary-lighter: #155079;
+    --primary-darker: #092234;
+    --secondary: #6694CC;
     font-family: Courier, monospace;
-    background-color: #888;
+    color: var(--clear);
+    background-color: var(--background);
     margin: 0;
     height: 100%;
 }
@@ -13,8 +21,7 @@ body {
 h1 {
     text-align: center;
     font-weight: bolder;
-    color: #FFF;
-    background-color: #444;
+    background-color: var(--header-color);
     padding: 1em 0;
     margin: 0;
 }
@@ -28,11 +35,10 @@ h1 {
     all: unset;
     padding: 0.25em;
     font-size: 6em;
-    color: #FFF;
 }
 
 .content button:hover {
-    background-color: #777;
+    background-color:rgba(0, 0, 0, 0.2);
 }
 
 .slideshow {
@@ -53,18 +59,17 @@ h1 {
     z-index: 100;
 }
 
-
 .slideshow-element h2 {
+    all: unset;
     font-size: 3em;
     padding: 0.5em;
     border-radius: 0.5em;
-    background-color: #AAA;
+    background-color: var(--primary);
     z-index: 100;
 }
 
 .slideshow-element h2:hover {
-    color: #FFF;
-    background-color: #444;
+    background-color: var(--primary-lighter);
 }
 
 
@@ -76,7 +81,7 @@ h1 {
     padding: 0.5em;
     border-radius: 0.5em;
     font-size: 2em;
-    background-color: #999;
+    background-color: var(--secondary);
 }
 
 .activity-tag {
