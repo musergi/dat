@@ -79,6 +79,11 @@ h1 {
     background-color: #999;
 }
 
+.activity-tag {
+    top: 0px;
+    left: 0px;
+}
+
 .hide {
     display: none;
 }

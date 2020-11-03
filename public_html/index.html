@@ -4,6 +4,8 @@
        <meta charset="UTF-8">
        <title>DAT</title>
        <link rel="stylesheet" href="landing.css">
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+       <script src="landing_animation.js"></script>
     </head>
     <body>
         <h1>Diseny d'Aplicacions Telemàtiques</h1>
@@ -15,14 +17,14 @@
                     <ul>
                         <li class="activity-tag">Haskell</li>
                         <li class="activity-tag">Drawing</li>
-                        <li class="activity-tag">Game of life</li>
+                        <li class="activity-tag">Game&nbspOf&nbspLife</li>
                     </ul>
                 </div>
                 <div class="slideshow-element hide">
                     <a href="practica2/"><h2>Practica 2</h2></a>
                     <ul>
                         <li class="activity-tag">Monad</li>
-                        <li class="activity-tag">Web Application Interface</li>
+                        <li class="activity-tag">Web&nbspApplication&nbspInterface</li>
                         <li class="activity-tag">HTML</li>
                         <li class="activity-tag">Handler</li>
                     </ul>
@@ -30,71 +32,5 @@
             </div>
             <button id="next">&#10095;</button>
         </div>
-        <script>
-            var slide = 0;
-            var slideshow_elements = document.getElementsByClassName("slideshow-element");
-            function hide_slide() {
-                slideshow_elements[slide].classList.add("hide");
-            }
-            function show_slide() {
-                slideshow_elements[slide].classList.remove("hide");
-                start();
-            }
-            document.getElementById("prev").onclick = function(event) {
-                const slide_count = slideshow_elements.length
-                hide_slide();
-                slide += slide_count - 1; 
-                slide %= slide_count;
-                show_slide();
-            };
-            document.getElementById("next").onclick = function(event) {
-                const slide_count = slideshow_elements.length
-                hide_slide();
-                slide += 1;
-                slide %= slide_count;
-                show_slide();
-            };
-
-            var interval = null;
-            var canvas_div = document.getElementsByClassName('slideshow')[0];
-            var tags = Array();
-            function start () {
-                if (interval != null) {
-                    clearInterval(interval)
-                }
-                const tag_elements = document.getElementsByClassName('activity-tag');
-                for (let element of tag_elements) {
-                    tags.push({
-                        'element': element,
-                        'x': 0,
-                        'y': 0,
-                        'vx': Math.random(),
-                        'vy': Math.random(),
-                        'width': element.offsetWidth,
-                        'height': element.offsetHeight
-                    });
-                }
-                interval = setInterval(update, 10);
-            }
-            function update() {
-                let width = canvas_div.offsetWidth;
-                let height = canvas_div.offsetHeight;
-                tags.forEach(tag => {
-                    tag.x += tag.vx;
-                    tag.y += tag.vy;
-                    if (tag.x > width - tag.width || tag.x < 0) {
-                        tag.vx *= -1;
-                        tag.x += tag.vx;
-                    }
-                    if (tag.y > height - tag.height || tag.y < 0) {
-                        tag.vy *= -1;
-                        tag.y += tag.vy;
-                    }
-                    tag.element.style.left = tag.x + 'px';
-                    tag.element.style.top = tag.y + 'px';
-                });
-            }
-            start();
-        </script>
     </body>
 </html>
