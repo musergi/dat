@@ -1,4 +1,4 @@
-SVG_COMPILER = "~WEBprofe/usr/bin/run-main"
+SVG_COMPILER = "/home/pract/LabWEB/WEBprofe/usr/bin/run-main"
 
 all:
 	cp -r public_html ~/
