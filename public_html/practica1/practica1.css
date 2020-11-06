@@ -15,4 +15,10 @@
     background-color: var(--clear);
     margin: 0.5em;
     padding: 0.25em;
+    display: flex;
+    flex-direction: column;
+}
+
+.row > div > h3 {
+    color: var(--primary);
 }
