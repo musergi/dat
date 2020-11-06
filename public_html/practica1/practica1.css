@@ -8,9 +8,9 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 1em 0;
+    padding: 2em 0;
 }
 
 .row img {
-    background-color: white;
+    background-color: var(--clear);
 }
