@@ -17,6 +17,7 @@
     padding: 0.25em;
     display: flex;
     flex-direction: column;
+    flex-shrink: 1;
 }
 
 .row > div > h3 {
