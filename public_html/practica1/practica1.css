@@ -11,7 +11,8 @@
     padding: 2em 1em;
 }
 
-.row img {
+.row > div {
     background-color: var(--clear);
     margin: 0.5em;
+    padding: 0.25em;
 }
