@@ -13,4 +13,5 @@
 
 .row img {
     background-color: var(--clear);
+    margin: 0.5em;
 }
