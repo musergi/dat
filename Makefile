@@ -11,5 +11,10 @@ all:
 	$(SVG_COMPILER) prac1/ex4.hs > ~/public_html/practica1/graphics/exercise4.svg
 	$(SVG_COMPILER) prac1/ex5.hs > ~/public_html/practica1/graphics/exercise5.svg
 	$(SVG_COMPILER) prac1/ex6.hs > ~/public_html/practica1/graphics/exercise6.svg
+	./prac1/part2/bin/make-cgi prac1/part2/src/life-1.hs
+	./prac1/part2/bin/make-cgi prac1/part2/src/life-2.hs
+	./prac1/part2/bin/make-cgi prac1/part2/src/life-3.hs
+	./prac1/part2/bin/make-cgi prac1/part2/src/life-4.hs
+	./prac1/part2/bin/make-cgi prac1/part2/src/life-5.hs
 	./prac2/prog-web/bin/make-cgi src/counter.hs
 	./prac2/prog-web/bin/make-cgi src/calc.hs
