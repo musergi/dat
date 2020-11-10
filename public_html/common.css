@@ -10,7 +10,6 @@ html, body {
     color: var(--clear);
     background-color: var(--background);
     margin: 0;
-    height: 100%;
 }
 
 body {

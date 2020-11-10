@@ -1,25 +1,22 @@
 .content {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
-.row {
-    flex-grow: 1;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 2em 1em;
-}
-
-.row > div {
+.content > div {
     background-color: var(--clear);
-    margin: 0.5em;
-    padding: 0.25em;
+    padding: 2em;
+    border-radius: 1em;
+    margin: 3em;
     display: flex;
     flex-direction: column;
     flex-shrink: 1;
 }
 
-.row > div > h3 {
-    color: var(--primary);
+h3 {
+    color: var(--background);
+    text-align: center;
+    padding-bottom: 1em;
+    font-weight: 900;
 }
