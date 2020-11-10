@@ -20,3 +20,19 @@ h3 {
     padding-bottom: 1em;
     font-weight: 900;
 }
+
+a {
+    all: unset;
+    color: var(--clear);
+    background-color: var(--background);
+
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    margin: 0 4em;
+
+    cursor: pointer;
+}
+
+a:hover {
+    background-color: var(--primary-lighter);
+}
