@@ -9,3 +9,42 @@
     padding: 16px;
     border-radius: 15px;
 }
+
+#links-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#links-section > div {
+    background-color: var(--clear);
+    padding: 2em;
+    border-radius: 1em;
+    margin: 3em;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+}
+
+#links-section h3 {
+    color: var(--background);
+    text-align: center;
+    padding-bottom: 1em;
+    font-weight: 900;
+}
+
+#links-section a {
+    all: unset;
+    color: var(--clear);
+    background-color: var(--background);
+
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    margin: 0 4em;
+
+    cursor: pointer;
+}
+
+#links-section a:hover {
+    background-color: var(--primary-lighter);
+}
