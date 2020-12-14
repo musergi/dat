@@ -80,7 +80,7 @@ getForumR fid = do
     -- ... A completar per l'estudiant
     tformw <- runAFormPost newTopicForm
     -- Return HTML content
-    defaultLayout $ forumView mbuser (fid, forum)
+    defaultLayout $ (tformw . forumView mbuser (fid, forum))
 
 postForumR :: ForumId -> HandlerFor ForumsApp Html
 postForumR tid = do
