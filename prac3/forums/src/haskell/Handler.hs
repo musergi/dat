@@ -78,9 +78,9 @@ getForumR fid = do
     mbuser <- maybeAuth
     -- Other processing (forms, ...)
     -- ... A completar per l'estudiant
-    tformw <- generateAFormPost newTopicForm
+    tformw <- runAFormPost newTopicForm
     -- Return HTML content
-    defaultLayout $ forumView mbuser (fid, forum) tformw
+    defaultLayout $ forumView mbuser (fid, forum)
 
 postForumR :: ForumId -> HandlerFor ForumsApp Html
 postForumR tid = do
