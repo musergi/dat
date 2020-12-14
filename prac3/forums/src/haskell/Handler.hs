@@ -40,8 +40,8 @@ newForumForm =
 
 newTopicForm :: AFor (HandlerFor ForumsApp) NewTopic
 newTopicForm =
-    NewTopic <$> freq textField (withPlaceholder "Introduiu el t�tol de la discussi�" "Titol") Nothing
-             <*> freq markdownField (withPlaceholder "Introduiu el missatge de la discussi�" "Missatge") Nothing
+    NewTopic <$> freq textField (withPlaceholder "Introduiu el títol de la discussió" "Titol") Nothing
+             <*> freq markdownField (withPlaceholder "Introduiu el missatge de la discussió" "Missatge") Nothing
 
 checkUserExists :: Text -> HandlerFor ForumsApp (Either Text (UserId, UserD))
 checkUserExists uname = do
