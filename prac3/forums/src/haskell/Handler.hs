@@ -38,7 +38,7 @@ newForumForm =
                    (withPlaceholder "Introduiu el nom de l'usuari moderador" "Nom del moderador")
                    Nothing)
 
-newTopicForm :: AFor (HandlerFor ForumsApp) NewTopic
+newTopicForm :: AForm (HandlerFor ForumsApp) NewTopic
 newTopicForm =
     NewTopic <$> freq textField (withPlaceholder "Introduiu el títol de la discussió" "Titol") Nothing
              <*> freq markdownField (withPlaceholder "Introduiu el missatge de la discussió" "Missatge") Nothing
@@ -78,7 +78,7 @@ getForumR fid = do
     mbuser <- maybeAuth
     -- Other processing (forms, ...)
     -- ... A completar per l'estudiant
-    tformw <- runAFormPost newTopicForm
+    tformw <- generateAFormPost newTopicForm
     -- Return HTML content
     defaultLayout $ forumView mbuser (fid, forum, tformw)
 
