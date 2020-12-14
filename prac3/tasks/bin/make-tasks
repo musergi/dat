@@ -1,0 +1,23 @@
+#!/bin/bash
+
+cd $(dirname $0)/..
+
+# -- Configuration variables:
+#       src_dirs
+#       main_file
+#       build_dir
+#       cgi_dir
+#       exe_file
+
+src_dirs=src/haskell
+main_file=src/haskell/Main.hs
+
+build_dir=build
+
+cgi_dir=~/public_html/practica3
+exe_file=$cgi_dir/tasks.cgi
+
+test -d $cgi_dir || mkdir -p $cgi_dir
+source ~WEBprofe/usr/share/bin/do-make-exe.sh
+chmod 700 $exe_file
+

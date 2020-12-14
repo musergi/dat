@@ -1,0 +1,15 @@
+#!/bin/bash
+
+cgi_dir=~/public_html/practica3
+db_name=tasks.db
+
+test -d $cgi_dir || mkdir -p $cgi_dir
+
+sqlite3 $cgi_dir/$db_name <<EOF
+CREATE TABLE tasks (id INTEGER PRIMARY KEY, title TEXT, done INTEGER);
+EOF
+
+chmod 600 $cgi_dir/$db_name
+
+echo "Base de dades creada en el fitxer '$cgi_dir/$db_name'"
+

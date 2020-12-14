@@ -37,6 +37,15 @@
 </table>
 
 $if{ isJust mbuser }
-  <h4>Formulari per a introdüir una nova pregunta (topic + post) ...</h4>
+<h4>Formulari per a introdüir una nova pregunta (topic + post) ...</h4>
+<div class="row">
+  <div class="col-sm-2"></div>
+  <div class="col-sm-10">
+    <form role="form" method="POST" action="@{ForumR}">
+      ^{tformw}
+      <button type="submit" class="btn btn-success">Nova discussió</button>
+    </form>
+  </div>
+</div>
 $end
 

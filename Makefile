@@ -18,3 +18,6 @@ all:
 	./prac1/part2/bin/make-cgi prac1/part2/src/life-5.hs
 	./prac2/prog-web/bin/make-cgi src/counter.hs
 	./prac2/prog-web/bin/make-cgi src/calc.hs
+	./prac3/make-hello.sh prac3/hello.hs
+	./prac3/tasks/bin/init-db
+	./prac3/tasks/bin/make-tasks

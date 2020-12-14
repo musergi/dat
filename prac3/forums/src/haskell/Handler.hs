@@ -38,6 +38,11 @@ newForumForm =
                    (withPlaceholder "Introduiu el nom de l'usuari moderador" "Nom del moderador")
                    Nothing)
 
+newTopicForm :: AFor (HandlerFor ForumsApp) NewTopic
+newTopicForm =
+    NewTopic <$> freq textField (withPlaceholder "Introduiu el t√tol de la discussi√" "Titol") Nothing
+             <*> freq markdownField (withPlaceholder "Introduiu el missatge de la discussi√" "Missatge") Nothing
+
 checkUserExists :: Text -> HandlerFor ForumsApp (Either Text (UserId, UserD))
 checkUserExists uname = do
     mbu <- runDbAction $ getUserByName uname
@@ -73,8 +78,9 @@ getForumR fid = do
     mbuser <- maybeAuth
     -- Other processing (forms, ...)
     -- ... A completar per l'estudiant
+    tformw <- generateAFormPost newTopicForm
     -- Return HTML content
-    defaultLayout $ forumView mbuser (fid, forum)
+    defaultLayout $ forumView mbuser (fid, forum) tformw
 
 postForumR :: ForumId -> HandlerFor ForumsApp Html
 postForumR tid = do
