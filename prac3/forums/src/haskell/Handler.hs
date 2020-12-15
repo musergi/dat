@@ -43,6 +43,10 @@ newTopicForm =
     NewTopic <$> freq textField (withPlaceholder "Introduiu el títol de la discussió" "Titol") Nothing
              <*> freq markdownField (withPlaceholder "Introduiu el missatge de la discussió" "Missatge") Nothing
 
+newPostForm :: AForm (HandlerFor ForumsApp) Markdown
+newPostForm =
+    freq markdownField (withPlaceholder "Introduiu el missatge" "Missatge") Nothing
+
 checkUserExists :: Text -> HandlerFor ForumsApp (Either Text (UserId, UserD))
 checkUserExists uname = do
     mbu <- runDbAction $ getUserByName uname
@@ -99,7 +103,10 @@ postForumR fid = do
 
 getTopicR :: TopicId -> HandlerFor ForumsApp Html
 getTopicR tid = do
-    fail "A completar per l'estudiant"
+    topic <- runDbAction (getTopic tid) >>= maybe notFound pure
+    mbuser <- maybeAuth
+    pformw <- generateAFormPost newPostForm
+    defaultLayout $ topicView mbuser (tid, topic, pformw)
 
 postTopicR :: TopicId -> HandlerFor ForumsApp Html
 postTopicR tid = do

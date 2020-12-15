@@ -60,3 +60,7 @@ forumView mbuser (fid, forum, tformw) = do
     topics <- runDbAction $ getTopicList fid
     $(widgetTemplFile $ "src/templates/forum.html")
 
+topicView :: Maybe (UserId, UserD) -> (TopicId, TopicD, Widget ForumsApp) -> Widget ForumsApp
+topicView mbuser (tid, topic, pformw) = do
+    posts <- runDbAction $ getPostList tid
+    $(widgetTemplFile $ "src/templates/topic.html")
