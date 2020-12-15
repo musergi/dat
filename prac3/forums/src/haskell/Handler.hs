@@ -91,7 +91,7 @@ postForumR fid = do
             now <- liftIO getCurrentTime
             -- addTopic fid uid nt now
             runDbAction $ addTopic fid (fst user) newTopic now
-            redirect ForumR fid
+            redirect (ForumR fid)
         _ -> do
             forum <- runDbAction (getForum fid) >>= maybe notFound pure
             defaultLayout $ forumView (Just user) (fid, forum, tformw)
