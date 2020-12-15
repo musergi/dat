@@ -83,8 +83,18 @@ getForumR fid = do
     defaultLayout $ forumView mbuser (fid, forum, tformw)
 
 postForumR :: ForumId -> HandlerFor ForumsApp Html
-postForumR tid = do
-    fail "A completar per l'estudiant"
+postForumR fid = do
+    user <- requireAuth
+    (tformr, tformw) <- runAFormPost newTopicForm
+    case tformr of
+        FormSuccess newTopic -> do
+            now <- liftIO getCurrentTime
+            -- addTopic fid uid nt now
+            runDbAction $ addTopic fid (Just user) newTopic now
+            redirect ForumR fid
+        _ -> do
+            forum <- runDbAction (getForum fid) >>= maybe notFound pure
+            defaultLayout $ forumView user (fid, forum, tformw)
 
 
 getTopicR :: TopicId -> HandlerFor ForumsApp Html
