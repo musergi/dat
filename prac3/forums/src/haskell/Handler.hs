@@ -121,5 +121,5 @@ postTopicR tid = do
             redirect (TopicR tid)
         _ -> do
             topic <- runDbAction (getTopic tid) >>= maybe notFound pure
-            defaultLayout $ forumView (Just user) (tid, topic, pformw)
+            defaultLayout $ topicView (Just user) (tid, topic, pformw)
 
