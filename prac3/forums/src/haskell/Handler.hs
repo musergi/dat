@@ -90,7 +90,7 @@ postForumR fid = do
         FormSuccess newTopic -> do
             now <- liftIO getCurrentTime
             -- addTopic fid uid nt now
-            runDbAction $ addTopic fid (Just user) newTopic now
+            runDbAction $ addTopic fid (fst user) newTopic now
             redirect ForumR fid
         _ -> do
             forum <- runDbAction (getForum fid) >>= maybe notFound pure
