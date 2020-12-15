@@ -94,7 +94,7 @@ postForumR fid = do
             redirect ForumR fid
         _ -> do
             forum <- runDbAction (getForum fid) >>= maybe notFound pure
-            defaultLayout $ forumView user (fid, forum, tformw)
+            defaultLayout $ forumView (Just user) (fid, forum, tformw)
 
 
 getTopicR :: TopicId -> HandlerFor ForumsApp Html
