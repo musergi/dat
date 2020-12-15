@@ -110,5 +110,16 @@ getTopicR tid = do
 
 postTopicR :: TopicId -> HandlerFor ForumsApp Html
 postTopicR tid = do
-    fail "A completar per l'estudiant"
+    user <- requireAuth
+    (pformr, pformw) <- runAFormPost newPostForm
+    case pformr of
+        FormSuccess newPost -> do
+            now <- liftIO getCurrentTime
+            -- addReply fid tid uid newtext now
+            topic <- runDbAction (getTopic tid) >>= maybe notFound pure
+            runDbAction $ addReply (tdForumId topic) tid (fst user) newPost now
+            redirect (TopicR tid)
+        _ -> do
+            topic <- runDbAction (getTopic tid) >>= maybe notFound pure
+            defaultLayout $ forumView (Just user) (tid, topic, pformw)
 
