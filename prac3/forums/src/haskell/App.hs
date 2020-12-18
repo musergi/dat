@@ -44,5 +44,8 @@ instance Dispatch ForumsApp where
                 [ onMethod1 "GET" getTopicR
                 , onMethod1 "POST" postTopicR
                 ]
+            <||> route ( onStatic ["post"] <&&> onDynamic <&&> onStatic ["delete"]) DeletePostR
+                [ onMethod1 "GET" getDeletePostR
+                ]
             <||> routeSub (onStatic ["auth"]) AuthR getAuth
 

@@ -123,3 +123,12 @@ postTopicR tid = do
             topic <- runDbAction (getTopic tid) >>= maybe notFound pure
             defaultLayout $ topicView (Just user) (tid, topic, pformw)
 
+getDeletePostR :: PostId -> HandlerFor ForumsApp Html
+getDeletePostR pid = do
+    user <- requireAuth
+    post <- runDbAction (getPost pid) >>= maybe notFound pure
+    let tid = pdTopicId post
+    topic <- runDbAction (getTopic tid) >>= maybe notFound pure
+    -- deletePost fid tid pid
+    runDbAction $ deletePost (tdForumId topic) tid pid
+    redirect (TopicR tid)
