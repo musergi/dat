@@ -30,12 +30,13 @@ data ForumsApp = ForumsApp { forumsDb :: Connection }
 
 instance RenderRoute ForumsApp where
     data Route ForumsApp =
-                  HomeR | ForumR ForumId | TopicR TopicId
+                  HomeR | ForumR ForumId | TopicR TopicId | DeletePostR PostId
                 | AuthR (Route Auth)
 
     renderRoute HomeR   = ([], [])
     renderRoute (ForumR tid) = (["forums",toPathPiece tid], [])
     renderRoute (TopicR qid) = (["topics",toPathPiece qid], [])
+    renderRoute (DeletePostR pid) = (["post",toPathPiece pid,"delete"], [])
     renderRoute (AuthR authr) = let (path,qs) = renderRoute authr in ("auth":path, qs)
 
 -- Nota: Els tipus ForumId, TopicId i PostId són alias de 'Key ...' (veieu el model)
