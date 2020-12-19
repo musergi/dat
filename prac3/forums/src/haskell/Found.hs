@@ -31,11 +31,14 @@ data ForumsApp = ForumsApp { forumsDb :: Connection }
 instance RenderRoute ForumsApp where
     data Route ForumsApp =
                   HomeR | ForumR ForumId | TopicR TopicId | DeletePostR PostId
+                | DeleteTopicR TopicId | DeleteForumR ForumId
                 | AuthR (Route Auth)
 
     renderRoute HomeR   = ([], [])
     renderRoute (ForumR tid) = (["forums",toPathPiece tid], [])
     renderRoute (TopicR qid) = (["topics",toPathPiece qid], [])
+    renderRoute (DeleteForumR fid) = (["forums",toPathPiece fid,"delete"], [])
+    renderRoute (DeleteTopicR tid) = (["topics",toPathPiece tid,"delete"], [])
     renderRoute (DeletePostR pid) = (["post",toPathPiece pid,"delete"], [])
     renderRoute (AuthR authr) = let (path,qs) = renderRoute authr in ("auth":path, qs)
 

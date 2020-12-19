@@ -44,6 +44,12 @@ instance Dispatch ForumsApp where
                 [ onMethod1 "GET" getTopicR
                 , onMethod1 "POST" postTopicR
                 ]
+            <||> route ( onStatic ["forums"] <&&> onDynamic <&&> onStatic ["delete"]) DeleteForumR
+                [ onMethod1 "GET" getDeleteForumR
+                ]
+            <||> route ( onStatic ["topics"] <&&> onDynamic <&&> onStatic ["delete"]) DeleteTopicR
+                [ onMethod1 "GET" getDeleteTopicR
+                ]
             <||> route ( onStatic ["post"] <&&> onDynamic <&&> onStatic ["delete"]) DeletePostR
                 [ onMethod1 "GET" getDeletePostR
                 ]
