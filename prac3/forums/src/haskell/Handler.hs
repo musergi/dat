@@ -130,8 +130,8 @@ getDeleteForumR fid = do
     runDbAction $ deleteForum fid
     redirect (ForumR fid)
 
-getDeleteTopic :: TopicId -> HandlerFor ForumsApp Html
-getDeleteTopic tid = do
+getDeleteTopicR :: TopicId -> HandlerFor ForumsApp Html
+getDeleteTopicR tid = do
     user <- requireAuth
     -- deleteTopic fid tid
     topic <- runDbAction (getTopic tid) >>= maybe notFound pure
