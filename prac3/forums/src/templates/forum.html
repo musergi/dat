@@ -30,7 +30,7 @@
         <td>^{ uidNameWidget (tdUserId topic) } / <span class="small">^{ dateWidget (tdStarted topic) }</span></td>
         <td>#{ tdPostCount topic }</td>
         <td>$maybe{ lastpid <- tdLastPostId topic } ^{pidPostedWidget lastpid} $end </td>
-        <td><a href="@{DelteTopicR tid}">Borrar</a></td>
+        <td><a href="@{DeleteTopicR tid}">Borrar</a></td>
       </tr>
     $end
   </tbody>
