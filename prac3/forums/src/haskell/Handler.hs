@@ -105,8 +105,7 @@ postForumR fid = do
             runDbAction $ addTopic fid (fst user) newTopic now
             redirect (ForumR fid)
         _ -> do
-            forum <- runDbAction (getForum fid) >>= maybe notFound pure
-            defaultLayout $ forumView (Just user) (fid, forum, tformw)
+            redirect (ForumR fid)
 
 getTopicR :: TopicId -> HandlerFor ForumsApp Html
 getTopicR tid = do
