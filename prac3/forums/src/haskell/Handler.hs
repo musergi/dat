@@ -47,6 +47,8 @@ newPostForm :: AForm (HandlerFor ForumsApp) Markdown
 newPostForm =
     freq markdownField (withPlaceholder "Introduiu el missatge" "Missatge") Nothing
 
+
+
 checkUserExists :: Text -> HandlerFor ForumsApp (Either Text (UserId, UserD))
 checkUserExists uname = do
     mbu <- runDbAction $ getUserByName uname
@@ -100,7 +102,6 @@ postForumR fid = do
             forum <- runDbAction (getForum fid) >>= maybe notFound pure
             defaultLayout $ forumView (Just user) (fid, forum, tformw)
 
-
 getTopicR :: TopicId -> HandlerFor ForumsApp Html
 getTopicR tid = do
     topic <- runDbAction (getTopic tid) >>= maybe notFound pure
@@ -148,3 +149,16 @@ getDeletePostR pid = do
     -- deletePost fid tid pid
     runDbAction $ deletePost (tdForumId topic) tid pid
     redirect (TopicR tid)
+
+postEditForumR :: ForumId -> HandlerFor ForumsApp Html
+postEditForumR fid = do
+    user <- requireAuth
+    (tformr, tformw) <- runAFormPost newTopicForm
+    case tformr of
+        FormSuccess editForum -> do
+            -- editForum fid nfTitle nfDescriptio
+            runDbAction $ editForum fid (ntSubject editForum) (ntMessage editForum)
+            redirect (ForumR fid)
+        _ -> do
+            forum <- runDbAction (getForum fid) >>= maybe notFound pure
+            defaultLayout $ forumView (Just user) (fid, forum, tformw)

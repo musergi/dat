@@ -127,6 +127,10 @@ deleteForum fid = do
     mapM_ (deleteTopic fid) (fst <$> ts)
     Db.delete fid
 
+editForum :: ForumId -> Text -> Markdown -> DbM ()
+editForum fid nfTitle nfDescription =
+    -- update :: ForumId -> (ForumD -> ForumD) -> DbM ()
+    update fid $ \ forumD -> forumD{ fdTitle = nfTitle, fdDescription = nfDescription }
 
 -- ---------------------------------------------------------------
 -- Table: TopicD (aka thread)

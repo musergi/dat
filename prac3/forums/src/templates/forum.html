@@ -49,3 +49,15 @@ $if{ isJust mbuser }
 </div>
 $end
 
+$if{ isMod }
+<h4>Canviar títol y descripció</h4>
+<div class="row">
+  <div class="col-sm-2"></div>
+  <div class="col-sm-10">
+    <form role="form" method="POST" action="@{EditForumR fid}">
+      ^{tformw}
+      <button type="submit" class="btn btn-success">Canviar</button>
+    </form>
+  </div>
+</div>
+$end
