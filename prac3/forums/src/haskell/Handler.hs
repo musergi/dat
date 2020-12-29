@@ -38,6 +38,11 @@ newForumForm =
                    (withPlaceholder "Introduiu el nom de l'usuari moderador" "Nom del moderador")
                    Nothing)
 
+editForumForm :: AForm (HandlerFor ForumsApp) NewTopic
+editForumForm =
+    NewTopic <$> freq textField (withPlaceholder "Introduiu el títol del forum" "Titol") Nothing
+             <*> freq markdownField (withPlaceholder "Introduiu la descripció del forum" "Missatge") Nothing
+
 newTopicForm :: AForm (HandlerFor ForumsApp) NewTopic
 newTopicForm =
     NewTopic <$> freq textField (withPlaceholder "Introduiu el títol de la discussió" "Titol") Nothing
@@ -85,8 +90,9 @@ getForumR fid = do
     -- Other processing (forms, ...)
     -- ... A completar per l'estudiant
     tformw <- generateAFormPost newTopicForm
+    fformw <- generateAFormPost editForumForm
     -- Return HTML content
-    defaultLayout $ forumView mbuser (fid, forum, tformw)
+    defaultLayout $ forumView mbuser (fid, forum, tformw, fformw)
 
 postForumR :: ForumId -> HandlerFor ForumsApp Html
 postForumR fid = do
@@ -153,12 +159,11 @@ getDeletePostR pid = do
 postEditForumR :: ForumId -> HandlerFor ForumsApp Html
 postEditForumR fid = do
     user <- requireAuth
-    (tformr, tformw) <- runAFormPost newTopicForm
-    case tformr of
+    (fformr, fformw) <- runAFormPost editForumForm
+    case fformr of
         FormSuccess editForum -> do
             -- editForum fid nfTitle nfDescriptio
             runDbAction $ editForum fid (ntSubject editForum) (ntMessage editForum)
             redirect (ForumR fid)
         _ -> do
-            forum <- runDbAction (getForum fid) >>= maybe notFound pure
-            defaultLayout $ forumView (Just user) (fid, forum, tformw)
+            redirect (ForumR fid)
