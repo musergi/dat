@@ -160,9 +160,9 @@ postEditForumR fid = do
     user <- requireAuth
     (fformr, fformw) <- runAFormPost editForumForm
     case fformr of
-        FormSuccess editForum -> do
+        FormSuccess editForumContent -> do
             -- editForum fid nfTitle nfDescriptio
-            runDbAction $ editForum fid (ntSubject editForum) (ntMessage editForum)
+            runDbAction $ editForum fid (ntSubject editForumContent) (ntMessage editForumContent)
             redirect (ForumR fid)
         _ -> do
             redirect (ForumR fid)
