@@ -57,7 +57,7 @@ homeView mbuser fformw = do
 
 forumView :: Maybe (UserId, UserD) -> (ForumId, ForumD, Widget ForumsApp) -> WidgetFor ForumsApp ()
 forumView mbuser (fid, forum, tformw) = do
-    let isMod = maybe False (fst mbuser == fdModeratorId forum)
+    let isMod = maybe False ((==) (fdModeratorId forum) . fst) mbuser
     topics <- runDbAction $ getTopicList fid
     $(widgetTemplFile $ "src/templates/forum.html")
 
