@@ -41,7 +41,7 @@ newForumForm =
 editForumForm :: AForm (HandlerFor ForumsApp) NewTopic
 editForumForm =
     NewTopic <$> freq textField (withPlaceholder "Introduiu el títol del forum" "Titol") Nothing
-             <*> freq markdownField (withPlaceholder "Introduiu la descripció del forum" "Missatge") Nothing
+             <*> freq markdownField (withPlaceholder "Introduiu la descripció del forum" "Descripció") Nothing
 
 newTopicForm :: AForm (HandlerFor ForumsApp) NewTopic
 newTopicForm =
