@@ -23,9 +23,17 @@ angular.module('forumsApp').service('forumsApiSrv', ['config','oauth2Srv','$http
         return doGet(false, '/forums');
     };
 
+    self.postForums = function(reqdata) {
+        return doPost('/forums', reqdata);
+    }
+    
     self.getForum = function(fid) {
         return doGet(false, '/forums/' + fid);
     };
+
+    self.deleteForum = function(fid) {
+        doDelete('/forums/' + fid);
+    }
 
     self.getForumTopics = function(fid) {
         return doGet(false, '/forums/' + fid + '/topics');
@@ -34,6 +42,30 @@ angular.module('forumsApp').service('forumsApiSrv', ['config','oauth2Srv','$http
     self.postForumTopics = function(fid, reqdata) {
         return doPost('/forums/' + fid + '/topics', reqdata);
     };
+
+    self.getTopic = function(tid) {
+        return doGet(false, '/topics/' + tid);
+    }
+
+    self.deleteTopic = function(tid) {
+        return doDelete('topics/' + tid);
+    }
+
+    self.getTopicPosts = function(tid) {
+        return doGet(false, '/topics/' + tid + '/posts');
+    }
+
+    self.postTopicPosts = function(tid, reqdata) {
+        return doPost('/topics/' + tid + '/posts', reqdata);
+    }
+
+    self.getPost = function(pid) {
+        return doGet(false, '/posts/' + pid);
+    }
+
+    self.deletePost = function(pid) {
+        return doDelete(false, '/posts/' + pid);
+    }
 
     //-----------------------------------------
     // Internal functions
@@ -69,6 +101,19 @@ angular.module('forumsApp').service('forumsApiSrv', ['config','oauth2Srv','$http
                                    headers: { 'Authorization': 'Bearer ' + access_token },
                                    data: reqdata
                                  };
+                return $http(httpConfig).then(resultData, errorFun)
+            }
+        );
+    }
+
+    function doDelete(path) {
+        return oauth2Srv.getToken(config.forumsApiScopes, null, false).then(
+            function(access_token) {
+                var httpConfig = {
+                    method: 'DELETE',
+                    url: config.forumsApiUrl + path,
+                    headers: {'Authorization': 'Bearer ' + access_token}
+                };
                 return $http(httpConfig).then(resultData, errorFun)
             }
         );
