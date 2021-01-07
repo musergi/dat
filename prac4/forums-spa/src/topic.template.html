@@ -1,13 +1,14 @@
 
-  <h2>Fòrum</h2>
+  <h2>Topic</h2>
   <div class="jumbotron"><table class="table">
-    <tr><th>Moderador:</th><td>{{$ctrl.forum. moderator}}</td></tr>
-    <tr><th>Títol:</th><td>{{$ctrl.forum.title}}</td></tr>
-    <tr><th>Descripció:</th><td><pre>{{$ctrl.forum.description}}</pre></td></tr>
+    <tr><th>Creat per:</th><td>{{$ctrl.topic.user}}</td></tr>
+    <tr><th>Títol:</th><td>{{$ctrl.topic.title}}</td></tr>
+    <tr><th>Detalls:</th><td><pre>{{$ctrl.firstPost.message}}</pre></td></tr>
   </table></div>
 
-  <h3>Qüestions</h3>
+  <h3>Respostes</h3>
 
+  <!--
   <div class="row" ng-if="!$ctrl.openedNewTopic">
     <div class="col-sm-offset-8">
       <button type="button" class="btn btn-sm btn-info" ng-click="$ctrl.openNewTopic()">
@@ -27,6 +28,7 @@
       </div>
     </div>
   </div>
+  -->
 
   <table class="table table-striped">
     <thead>
@@ -37,9 +39,9 @@
       <th class="col-xs-9">Títol</th></tr>
     </thead>
     <tbody>
-      <tr ng-repeat="q in $ctrl.topics | orderBy : 'started' : $ctrl.reversed">
-        <td class="col-xs-3">{{q.started | date : "d MMM,yyyy H:mm:ss"}}<br> per <em>{{q.user}}</em></td>
-        <td class="col-xs-9"><a href="#!/topic-{{q.id}}">{{q.title}}</a></td>
+      <tr ng-repeat="post in $ctrl.posts | orderBy : 'stated' : $ctrl.reversed">
+        <td class="col-xs-3">{{post.posted | date : "d MMM,yyyy H:mm:ss"}}<br> per <em>{{post.user}}</em></td>
+        <td class="col-xs-9">{{post.message}}</td>
       </tr>
     </tbody>
   </table>
