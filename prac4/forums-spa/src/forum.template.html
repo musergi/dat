@@ -1,0 +1,46 @@
+
+  <h2>Fòrum</h2>
+  <div class="jumbotron"><table class="table">
+    <tr><th>Moderador:</th><td>{{$ctrl.forum. moderator}}</td></tr>
+    <tr><th>Títol:</th><td>{{$ctrl.forum.title}}</td></tr>
+    <tr><th>Descripció:</th><td><pre>{{$ctrl.forum.description}}</pre></td></tr>
+  </table></div>
+
+  <h3>Qüestions</h3>
+
+  <div class="row" ng-if="!$ctrl.openedNewTopic">
+    <div class="col-sm-offset-8">
+      <button type="button" class="btn btn-sm btn-info" ng-click="$ctrl.openNewTopic()">
+        <span class="glyphicon glyphicon-comment" aria-hidden="true"></span>
+        Nova qüestió
+      </button>
+    </div>
+  </div>
+  <div ng-if="$ctrl.openedNewTopic">
+    <div ng-if="$ctrl.maybeUser()!=null">
+      <new-topic on-submit="$ctrl.newTopic(data)" on-cancel="$ctrl.closeNewTopic()"></new-topic>
+    </div>
+    <div ng-if="$ctrl.maybeUser()==null">
+      <div class="alert alert-warning alert-dismissible" role="alert">
+        <button type="button" class="close" ng-click="$ctrl.closeNewTopic()" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <strong>Avís!</strong> Cal autenticarse per a poder fer noves qüestions.
+      </div>
+    </div>
+  </div>
+
+  <table class="table table-striped">
+    <thead>
+      <tr><th class="col-xs-3">
+        <a ng-click="$ctrl.toggleReversed()">
+          Data<span class="glyphicon glyphicon-triangle-{{$ctrl.reversed ? 'top':'bottom'}}" aria-hidden="true"></span>
+        </a> / Per</th>
+      <th class="col-xs-9">Títol</th></tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="q in $ctrl.topics | orderBy : 'started' : $ctrl.reversed">
+        <td class="col-xs-3">{{q.started | date : "d MMM,yyyy H:mm:ss"}}<br> per <em>{{q.user}}</em></td>
+        <td class="col-xs-9">{{q.title}}</td>
+      </tr>
+    </tbody>
+  </table>
+

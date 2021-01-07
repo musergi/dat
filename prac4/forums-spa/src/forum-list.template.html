@@ -1,0 +1,11 @@
+
+  <h2>Forum</h2>
+  <table class="table table-striped">
+    <thead><tr><th>Títol</th><th>Descripció</th></tr></thead>
+    <tbody>
+      <tr ng-repeat="t in $ctrl.forums">
+        <td><a href="#!/forum-{{t.id}}">{{t.title}}</td><td><pre>{{t.description}}</pre></td>
+      </tr>
+    </tbody>
+  </table>
+

@@ -1,0 +1,30 @@
+
+  <form name="$ctrl.form" class="form-horizontal" role="form">
+    <div class="form-group" ng-class="{'has-error': $ctrl.form.title.$invalid}">
+      <label class="control-label col-sm-2" for="topic-title">Títol:</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="topic-title" placeholder="Introduiu el títol de la nova qüestió" name="title"
+               ng-model="$ctrl.model.title" ng-required="true" ng-minlength="5" ng-maxlength="140"/>
+        <div ng-if="$ctrl.form.title.$error.required" class="help-block">Títol requerit</div>
+        <div ng-if="$ctrl.form.title.$error.minlength" class="help-block">Títol massa curt</div>
+        <div ng-if="$ctrl.form.title.$error.maxlength" class="help-block">Títol massa larg</div>
+      </div>
+    </div>
+    <div class="form-group" ng-class="{'has-error': $ctrl.form.message.$invalid}">
+      <label class="control-label col-sm-2" for="topic-message">Text:</label>
+      <div class="col-sm-10">
+        <textarea class="form-control" id="topic-message" placeholder="Introduiu el text de la nova qüestió" name="message"
+                  ng-model="$ctrl.model.message" ng-required="true" ng-minlength="20" rows="5">
+        </textarea>
+        <div ng-if="$ctrl.form.message.$error.required" class="help-block">Text requerit</div>
+        <div ng-if="$ctrl.form.message.$error.minlength" class="help-block">Text massa curt (menys de 20 caràcters)</div>
+      </div>
+    </div>
+    <div class="col-sm-offset-2 col-sm-10">
+      <div class="btn-group">
+        <button type="submit" class="btn btn-primary" ng-click="$ctrl.submit()" ng-disabled="$ctrl.form.$invalid">Nova qüestió</button>
+        <button type="button" class="btn btn-danger" ng-click="$ctrl.onCancel()">Cancel.la</button>
+      </div>
+    </div>
+  </form>
+
