@@ -31,7 +31,7 @@ angular.module('forumsApp').config(['$routeProvider', function($routeProvider) {
             template: '<forum></forum>'
         }).
         when('/topic-:topicId', {
-            tempate: '<topic></topic>'
+            template: '<topic></topic>'
         }).
         otherwise('/');
 }]);
