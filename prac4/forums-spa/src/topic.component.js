@@ -9,7 +9,7 @@ angular.module('forumsApp').component('topic', {
         self.topic = null;
         self.firstPost = null;
         self.posts = []
-        self.reversed = true;
+        self.reversed = false;
         self.openedNewPost = false;
 
         //-----------------------------------------
@@ -38,10 +38,15 @@ angular.module('forumsApp').component('topic', {
             );
         };
 
+        self.deletePost = function(postId) {
+            forumsApiSrv.deletePost(postId)
+        };
+
         function reloadPosts() {
             forumsApiSrv.getTopicPosts($routeParams.topicId).then(
                 function(data) {
                     self.posts = data.items;
+                    self.posts.shift();
                 }
             );
         }
