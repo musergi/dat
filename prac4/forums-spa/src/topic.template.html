@@ -10,27 +10,25 @@
 
   <h3>Respostes</h3>
 
-  <!--
-  <div class="row" ng-if="!$ctrl.openedNewTopic">
+  <div class="row" ng-if="!$ctrl.openedNewPost">
     <div class="col-sm-offset-8">
-      <button type="button" class="btn btn-sm btn-info" ng-click="$ctrl.openNewTopic()">
+      <button type="button" class="btn btn-sm btn-info" ng-click="$ctrl.openNewPost()">
         <span class="glyphicon glyphicon-comment" aria-hidden="true"></span>
-        Nova qüestió
+        Nova resposta
       </button>
     </div>
   </div>
-  <div ng-if="$ctrl.openedNewTopic">
+  <div ng-if="$ctrl.openedNewPost">
     <div ng-if="$ctrl.maybeUser()!=null">
-      <new-topic on-submit="$ctrl.newTopic(data)" on-cancel="$ctrl.closeNewTopic()"></new-topic>
+      <new-post on-submit="$ctrl.newPost(data)" on-cancel="$ctrl.closeNewPost()"></new-post>
     </div>
     <div ng-if="$ctrl.maybeUser()==null">
       <div class="alert alert-warning alert-dismissible" role="alert">
-        <button type="button" class="close" ng-click="$ctrl.closeNewTopic()" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <strong>Avís!</strong> Cal autenticarse per a poder fer noves qüestions.
+        <button type="button" class="close" ng-click="$ctrl.closeNewPost()" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <strong>Avís!</strong> Cal autenticarse per a poder respondre.
       </div>
     </div>
   </div>
-  -->
 
   <table class="table table-striped">
     <thead>

@@ -1,72 +1,68 @@
 
 angular.module('forumsApp').component('topic', {
-  templateUrl: 'topic.template.html',
+    templateUrl: 'topic.template.html',
 
-  controller: ['$routeParams','forumsApiSrv','breadcrumbSrv', function($routeParams, forumsApiSrv, breadcrumbSrv) {
-    var self = this;
-    //-----------------------------------------
-    // Data
-    self.forum = null;
-    self.topics = []; // array of topics
-                      // topic rep.: { user: String, started: String, title: String, ... }
-    self.reversed = true;
-    self.openedNewTopic = false;
+    controller: ['$routeParams','forumsApiSrv','breadcrumbSrv', function($routeParams, forumsApiSrv, breadcrumbSrv) {
+        var self = this;
+        //-----------------------------------------
+        // Data
+        self.topic = null;
+        self.firstPost = null;
+        self.posts = []
+        self.reversed = true;
+        self.openedNewPost = false;
 
-    self.topic = null;
-    self.firstPost = null;
-    self.posts = []
+        //-----------------------------------------
+        // Operations
 
-    //-----------------------------------------
-    // Operations
+        self.maybeUser = forumsApiSrv.maybeUser;
 
-    self.maybeUser = forumsApiSrv.maybeUser;
+        self.toggleReversed = function() {
+            self.reversed = ! self.reversed;
+        };
 
-    self.toggleReversed = function() {
-        self.reversed = ! self.reversed;
-    };
+        self.openNewPost = function() {
+            self.openedNewPost = true;
+        };
 
-    self.openNewTopic = function() {
-        self.openedNewTopic = true;
-    };
+        self.closeNewPost = function() {
+            self.openedNewPost = false;
+        };
 
-    self.closeNewTopic = function() {
-        self.openedNewTopic = false;
-    };
+        self.newPost = function(formData) {
+            forumsApiSrv.postTopicPosts(self.topic.id, formData).then(
+                function() {
+                    self.closeNewPost();
+                    reloadPosts();
+                }
+            );
+        };
 
-    self.newTopic = function(formData) {
-        forumsApiSrv.postForumTopics(self.forum.id, formData).then(
-            function() {
-                self.closeNewTopic();
-                reloadTopics();
-            }
-        );
-    };
-
-    function reloadPosts() {
-        forumsApiSrv.getTopicPosts($routeParams.topicId).then(
-            function(data) {
-                self.posts = data.items;
-            }
-        );
-    }
-
-    //-----------------------------------------
-    // Initial load
-    forumsApiSrv.getTopic($routeParams.topicId).then(
-        function(data) {
-            self.topic = data;
-            breadcrumbSrv.set([
-                {label: 'Home', url: '#!/'},
-                {label: self.topic.title, url: '#!/topic-' + self.topic.id}
-            ]);
-            forumsApiSrv.getPost(data.firstPostId).then(
+        function reloadPosts() {
+            forumsApiSrv.getTopicPosts($routeParams.topicId).then(
                 function(data) {
-                    self.firstPost = data;
+                    self.posts = data.items;
                 }
             );
         }
-    );
-    reloadPosts();
-  }]
+
+        //-----------------------------------------
+        // Initial load
+        forumsApiSrv.getTopic($routeParams.topicId).then(
+            function(data) {
+                self.topic = data;
+                breadcrumbSrv.set([
+                    {label: 'Home', url: '#!/'},
+                    {label: self.topic.title, url: '#!/topic-' + self.topic.id}
+                ]);
+                forumsApiSrv.getPost(data.firstPostId).then(
+                    function(data) {
+                        self.firstPost = data;
+                    }
+                );
+            }
+        );
+        reloadPosts();
+    }]
 });
 
