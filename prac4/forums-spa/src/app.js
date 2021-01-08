@@ -13,8 +13,8 @@ angular.module('forumsApp').constant('config',
       // Settings for the OAuth2 registered client.
       // Please, change to your settings !
       clientSettings : {
-        client_id: '0d07c82c-0c80-4313-b72f-5d98e46583b5',
-        callback_url: 'http://soft0.upc.edu/dat/practica4/tutorial/src/step_5/oauth2/callback.html'
+        client_id: 'c13acd2e-9312-45f5-9ef5-9d7d542555c9',
+        callback_url: 'http://soft0.upc.edu/~ldatusr33/practica4/oauth2/callback.html'
       },
       // Settings for the Forums web service
       forumsApiUrl: 'http://soft0.upc.edu/~WEBprofe/oauth2/forums-service.cgi/api',
