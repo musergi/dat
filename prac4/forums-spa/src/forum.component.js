@@ -38,6 +38,10 @@ angular.module('forumsApp').component('forum', {
         );
     };
 
+    self.deleteTopic = function(topicId) {
+        forumsApiSrv.deleteTopic(topicId);
+    };
+
     function reloadTopics() {
         forumsApiSrv.getForumTopics($routeParams.forumId).then(
             function(data) {

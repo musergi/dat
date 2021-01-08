@@ -48,7 +48,7 @@ angular.module('forumsApp').service('forumsApiSrv', ['config','oauth2Srv','$http
     }
 
     self.deleteTopic = function(tid) {
-        return doDelete('topics/' + tid);
+        return doDelete('/topics/' + tid);
     }
 
     self.getTopicPosts = function(tid) {
