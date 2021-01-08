@@ -51,10 +51,15 @@ angular.module('forumsApp').component('topic', {
         forumsApiSrv.getTopic($routeParams.topicId).then(
             function(data) {
                 self.topic = data;
-                breadcrumbSrv.set([
-                    {label: 'Home', url: '#!/'},
-                    {label: self.topic.title, url: '#!/topic-' + self.topic.id}
-                ]);
+                forumsApiSrv.getForum(data.forumId).then(
+                    function(data) {
+                        breadcrumbSrv.set([
+                            {label: 'Home', url: '#!/'},
+                            {label: data.title, url: '#!/forum-' + data.id},
+                            {label: self.topic.title, url: '#!/topic-' + self.topic.id}
+                        ]);
+                    }
+                );
                 forumsApiSrv.getPost(data.firstPostId).then(
                     function(data) {
                         self.firstPost = data;
