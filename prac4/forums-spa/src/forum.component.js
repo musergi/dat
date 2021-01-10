@@ -9,6 +9,7 @@ angular.module('forumsApp').component('forum', {
     self.forum = null;
     self.topics = []; // array of topics
                       // topic rep.: { user: String, started: String, title: String, ... }
+    self.isMod = false;
     self.reversed = true;
     self.openedNewTopic = false;
 
@@ -39,7 +40,11 @@ angular.module('forumsApp').component('forum', {
     };
 
     self.deleteTopic = function(topicId) {
-        forumsApiSrv.deleteTopic(topicId);
+        forumsApiSrv.deleteTopic(topicId).then(
+            function() {
+                reloadTopics();
+            }
+        );
     };
 
     function reloadTopics() {
@@ -55,6 +60,8 @@ angular.module('forumsApp').component('forum', {
     forumsApiSrv.getForum($routeParams.forumId).then(
         function(data) {
             self.forum = data;
+            let user = self.maybeUser();
+            self.isMod = user != null && user.name == data.moderator;
             breadcrumbSrv.set([
                 { label:  'Home', url: '#!/' },
                 { label: self.forum.title, url: '#!/forum-' + self.forum.id }

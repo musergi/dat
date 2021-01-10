@@ -32,7 +32,7 @@ angular.module('forumsApp').service('forumsApiSrv', ['config','oauth2Srv','$http
     };
 
     self.deleteForum = function(fid) {
-        doDelete('/forums/' + fid);
+        return doDelete('/forums/' + fid);
     }
 
     self.getForumTopics = function(fid) {

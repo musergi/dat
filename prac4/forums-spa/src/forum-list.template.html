@@ -1,11 +1,40 @@
 
   <h2>Forum</h2>
+  
+  <div class="row" ng-if="!$ctrl.openedNewForum">
+    <div class="col-sm-offset-8">
+      <button type="button" class="btn btn-sm btn-info" ng-click="$ctrl.openNewForum()">
+        <span class="glyphicon glyphicon-comment" aria-hidden="true"></span>
+        Nou forum
+      </button>
+    </div>
+  </div>
+  <div ng-if="$ctrl.openedNewForum">
+    <div ng-if="$ctrl.maybeUser()!=null">
+      <new-forum on-submit="$ctrl.newForum(data)" on-cancel="$ctrl.closeNewForum()"></new-forum>
+    </div>
+    <div ng-if="$ctrl.maybeUser()==null">
+      <div class="alert alert-warning alert-dismissible" role="alert">
+        <button type="button" class="close" ng-click="$ctrl.closeNewForum()" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <strong>Avís!</strong> Cal autenticarse per a poder respondre.
+      </div>
+    </div>
+  </div>
+
   <table class="table table-striped">
     <thead><tr><th>Títol</th><th>Descripció</th></tr></thead>
     <tbody>
       <tr ng-repeat="t in $ctrl.forums">
-        <td><a href="#!/forum-{{t.id}}">{{t.title}}</td><td><pre>{{t.description}}</pre></td>
+        <td class="col-xs-2"><a href="#!/forum-{{t.id}}">{{t.title}}</td>
+        <td class="col-xs-9"><pre>{{t.description}}</pre></td>
+        <td class="col-xs-1">
+            <button type="button" class="btn btn-danger" ng-if="$ctrl.isMod(t.moderator)" ng-click="$ctrl.deleteForum(t.id)">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+                    <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z"/>
+                    <path fill-rule="evenodd" d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4L4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z"/>
+                </svg>
+            </button>
+        </td>
       </tr>
     </tbody>
   </table>
-

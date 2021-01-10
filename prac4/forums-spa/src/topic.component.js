@@ -39,7 +39,11 @@ angular.module('forumsApp').component('topic', {
         };
 
         self.deletePost = function(postId) {
-            forumsApiSrv.deletePost(postId)
+            forumsApiSrv.deletePost(postId).then(
+                function() {
+                    reloadPosts();
+                }
+            );
         };
 
         function reloadPosts() {
